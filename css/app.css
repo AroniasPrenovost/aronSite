@@ -14,7 +14,6 @@ html {
 body {
   /* Extra small devices */
   background-color: gray;
-  /* ptentially get rid of above */
   /* 
 		Small devices Tablets 
 		col-sm-12
@@ -24,7 +23,7 @@ body {
 		col-md-12
 	*/ }
   body .container {
-    /*	position: relative; /* used to be absolute */
+    /*	position: relative; used to be absolute */
     left: 0;
     right: 0; }
   body .masthead {
@@ -43,21 +42,16 @@ body {
     margin-top: 195px;
     color: #fff;
     text-align: center;
-    font-size: 39px;
+    font-size: 1.6em;
     opacity: .5;
-    text-transform: uppercase; }
-  body .mini-header {
-    margin: 0 0 0 27px;
-    margin-top: 25px;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    opacity: .7;
     text-transform: none; }
+  body .mini-header {
+    opacity: 0; }
   body .button {
     cursor: pointer;
     margin: 10px;
     border-radius: 5px;
+    text-align: center;
     text-decoration: none;
     padding: 10px;
     font-size: 15px;
@@ -66,8 +60,9 @@ body {
     -moz-transition: .3s;
     -o-transition: .3s;
     display: inline-block;
+    /* this is important to keep */
     padding: 12px 29px;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -109,8 +104,6 @@ body {
   body .textbox {
     z-index: 100;
     position: absolute;
-    /*  min-height: 30px;
-    max-height: 80px; */
     height: 80px;
     left: 0;
     right: 0;
@@ -136,8 +129,16 @@ body {
       background-color: blue;
       font-size: 25px;
       /* is it not best practice to have hover on tablets? */ }
-      body #content {
-        font-size: 47px; } }
+      body .content {
+        font-size: 47px; }
+      body .mini-header {
+        margin: 0 0 0 27px;
+        margin-top: 25px;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        opacity: .7;
+        text-transform: none; } }
   @media (min-width: 970px) {
     body {
       background-color: yellow;
