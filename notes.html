@@ -1,0 +1,61 @@
+hover shit for the css tiles 
+
+/*
+.panel {
+	width: 7.1%;			/* this was 15% */
+/*	height: 80px;	  /* this was 200px */
+/*	margin: .2%;   /* this was 1.66% */
+/*	float: left;
+	color: green;
+}
+
+*/
+
+
+.panel > .front {
+	position: absolute;		/*THIS WAS ORIGINALLY absolute*/
+	-webkit-transform: perspective( 600px ) rotateY(0deg );
+	transform: perspective( 600px ) rotateY(0deg );
+	background: green; 
+	width: 7.1%;
+	height: 80px;
+	margin: .2%;			/* used to be 1% */
+	border-radius: 1px;
+	-webkit-backface-visibility: hidden;
+/*	backface-visibility: hidden; */
+	transition: -webkit-transform .4s linear 0s;
+	transition: transform .4s linear 0s;
+}
+.panel > .back {
+	position: absolute;
+	-webkit-transform: perspective( 600px ) rotateY(180deg );
+	transform: perspective( 600px ) rotateY(180deg );
+	background: #FFA07A ; /* do i cut this out???? */
+	width: 7.1%;
+	height: 80px;
+	margin: .2%;
+	border-radius: 1px;
+	-webkit-backface-visibility: hidden;
+/*	backface-visibility: hidden; */
+	transition: -webkit-transform .4s linear 0s;
+	transition: transform .4s linear 0s;
+}
+
+.panel:hover > .front{
+		-webkit-transform: perspective( 600px ) rotateY( -180deg );
+		transform: perspective( 600px ) rotateY( -180deg );
+}
+
+.panel:hover > .back{
+		-webkit-transform: perspective(600px ) rotateY( 0deg );
+		transform: perspective(600px ) rotateY( 0deg );
+}
+
+
+END HOVER SHIT 
+END HOVER SHIT 
+END HOVER SHIT 
+END HOVER SHIT 
+
+END HOVER SHIT END HOVER SHIT 
+END HOVER SHIT 
