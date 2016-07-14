@@ -17,9 +17,8 @@ body {
   /* CSS JQUERY MENU */
   /*----- Toggle Button -----*/
   /*----- Menu -----*/
-  /*----- Search -----*/
   /*----- Responsive -----*/
-  /* END CSS JQUERY MENU */
+  /* END JQUERY MENU */
   /* 
 		Small devices Tablets 
 		col-sm-12
@@ -62,31 +61,11 @@ body {
     margin-right: 0px; }
   body .menu a {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-    color: #777;
+    color: #green;
     transition: color linear 0.15s; }
   body .menu a:hover, body .menu .current-item a {
     text-decoration: none;
     color: #66a992; }
-  body .search-form {
-    float: right;
-    display: inline-block; }
-  body .search-form input {
-    width: 200px;
-    height: 30px;
-    padding: 0px 8px;
-    float: left;
-    border-radius: 2px 0px 0px 2px;
-    font-size: 13px; }
-  body .search-form button {
-    height: 30px;
-    padding: 0px 7px;
-    float: right;
-    border-radius: 0px 2px 2px 0px;
-    background: #66a992;
-    font-size: 13px;
-    font-weight: 600;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-    color: #fff; }
   @media screen and (max-width: 1150px) {
     body .wrap {
       width: 90%; } }
@@ -138,12 +117,7 @@ body {
       transition: color linear 0.15s; }
     body .toggle-nav:hover, body .toggle-nav.active {
       text-decoration: none;
-      color: #66a992; }
-    body .search-form {
-      margin: 12px 0px 0px 20px;
-      float: left; }
-    body .search-form input {
-      box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1); } }
+      color: #66a992; } }
   body .container {
     /*	position: relative; used to be absolute */
     left: 0;
@@ -161,11 +135,11 @@ body {
     z-index: 1; }
   body .content {
     margin: 0 0 0 27px;
-    margin-top: 148px;
+    margin-top: 140px;
     margin-bottom: 42px;
     color: #fff;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.8em;
     opacity: .5;
     text-transform: none; }
   body .mini-header {
@@ -178,7 +152,6 @@ body {
     border-radius: 0px;
     text-align: center;
     text-decoration: none;
-    padding: 10px;
     font-size: 15px;
     /* was 15px */
     transition: 0s;
@@ -213,7 +186,8 @@ body {
     text-decoration: none;
     outline: none; }
   body .grid_section {
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-left: 16px; }
   body .tile {
     opacity: 1.0;
     display: inline-block;
@@ -251,22 +225,12 @@ body {
     position: relative;
     background-color: white;
     font-family: Century;
-    min-height: 605px;
+    min-height: 450px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     bottom: 0px;
     width: 100%; }
-  body .footer h6 {
-    position: fixed;
-    bottom: 8px;
-    left: 0;
-    right: 0;
-    font-size: 12px;
-    font-style: normal;
-    font-family: sans-serif;
-    text-align: center;
-    vertical-align: bottom; }
   body .footer-pic {
     position: relative;
     background-color: white;
@@ -282,7 +246,7 @@ body {
     position: relative;
     width: 100px;
     height: 100px; }
-  body .footer-bio {
+  body .footer-paragraph {
     position: relative;
     top: 80px;
     left: 0;
@@ -292,22 +256,39 @@ body {
     font-family: sans-serif;
     text-align: left; }
   body .social-icons {
-    margin: 0 auto;
     position: relative;
     background-color: white;
-    font-family: Century;
     min-height: 35px;
-    margin-top: 90px;
+    margin-top: 50%;
+    margin-left: 10px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    align: center;
     bottom: 0px;
-    width: 55px;
-    height: 55px; }
-  body .social-icons img {
+    width: 100%;
+    height: 100%; }
+  body .icon {
+    display: inline-block;
+    position: relative;
+    border-radius: 0%;
+    align: center;
+    float: left;
+    padding: 12px 29px; }
+  body .icon img {
     position: relative;
     width: 55px;
     height: 55px;
-    margin: 0 auto; }
+    align: center; }
+  body .cpyrt h6 {
+    position: fixed;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: bottom; }
   @media (min-width: 750px) {
     body {
       background-color: blue;
