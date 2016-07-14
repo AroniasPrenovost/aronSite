@@ -16,6 +16,53 @@
 <body>
 
 
+<!-- NAVBAR mmenu--> 
+
+<div class="container">
+
+
+
+<nav class="menu">
+    <ul class="active">
+        <li class="current-item"><a href="#">Home</a></li>
+        <li><a href="#">My Work</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Get in Touch</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+ 
+    <a class="toggle-nav" href="#">&#9776;</a>
+ 
+    <form class="search-form">
+        <input type="text">
+        <button>Search</button>
+    </form>
+
+<script>
+jQuery(document).ready(function() {
+    jQuery('.toggle-nav').click(function(e) {
+        jQuery(this).toggleClass('active');
+        jQuery('.menu ul').toggleClass('active');
+ 
+        e.preventDefault();
+    });
+});
+
+</script>
+</nav>
+
+
+
+</div><!-- container -->
+
+
+
+
+
+
+<!-- END mmenu --> 
+
+
 
 <div class="masthead">
 	<div class="container">    
@@ -161,7 +208,7 @@
 								</div>
 								
 								<div class="footer-bio">
-									<p>About a year ago I discovered coding and and have been hooked ever since. My focus is building responsive websites using HTML, CSS, and JavaScript, although I also enjoy practicing programming in Python and PROCESSING.</p>
+									<p>Something clever to be determined.</p>
 								</div><!-- footerbio --> 
 
 								<div class="social-icons">
@@ -173,7 +220,7 @@
 								</div><!-- social-icons --> 	
 								
 								<h6>© 2016 Aron Prenovost <br>
-									French Pressed in Seattle</h6>
+									<H6> SOMETHING WITTY</h6>
 								</div>	
 
 
