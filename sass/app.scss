@@ -27,122 +27,122 @@ body {
 
 /*----- Toggle Button -----*/
 .toggle-nav {
-    display:none;
+	display:none;
 }
- 
+
 /*----- Menu -----*/
 @media screen and (min-width: 860px) {
-    .menu {
-        width:100%;
-        padding:10px 18px;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
-        background:#303030;
-    }
+	.menu {
+		width:100%;
+		padding:10px 18px;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+		background:#303030;
+	}
 }
- 
+
 .menu ul {
-    display:inline-block;
+	display:inline-block;
 }
- 
+
 .menu li {
-    margin:0px 50px 0px 0px;
-    float:left;
-    list-style:none;
-    font-size:17px;
+	margin:0px 50px 0px 0px;
+	float:left;
+	list-style:none;
+	font-size:17px;
 }
- 
+
 .menu li:last-child {
-    margin-right:0px;
+	margin-right:0px;
 }
- 
+
 .menu a {
-    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-    color:#green;
-    transition:color linear 0.15s;
+	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+	color:#green;
+	transition:color linear 0.15s;
 }
- 
+
 .menu a:hover, .menu .current-item a {
-    text-decoration:none;
-    color:#66a992;
+	text-decoration:none;
+	color:#66a992;
 }
- 
- 
+
+
 /*----- Responsive -----*/
 @media screen and (max-width: 1150px) {
-    .wrap {
-        width:90%;
-    }
+	.wrap {
+		width:90%;
+	}
 }
- 
+
 @media screen and (max-width: 970px) {
-    .search-form input {
-        width:120px;
-    }
+	.search-form input {
+		width:120px;
+	}
 }
- 
+
 @media screen and (max-width: 860px) {
-    .menu {
-        position:relative;
-        display:inline-block;
-    }
- 
-    .menu ul.active {
-        display:none;
-    }
- 
-    .menu ul {
-        width:100%;
-        position:absolute;
-        top:120%;
-        left:0px;
-        padding:10px 18px;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
-        background:#303030;
-    }
- 
-    .menu ul:after {
-        width:0px;
-        height:0px;
-        position:absolute;
-        top:0%;
-        left:22px;
-        content:'';
-        transform:translate(0%, -100%);
-        border-left:7px solid transparent;
-        border-right:7px solid transparent;
-        border-bottom:7px solid #303030;
-    }
- 
-    .menu li {
-        margin:5px 0px 5px 0px;
-        float:none;
-        display:block;
-    }
- 
-    .menu a {
-        display:block;
-    }
- 
-    .toggle-nav {
-        padding:20px;
-        float:left;
-        display:inline-block;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
-        background:#303030;
-        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-        color:#777;
-        font-size:20px;
-        transition:color linear 0.15s;
-    }
- 
-    .toggle-nav:hover, .toggle-nav.active {
-        text-decoration:none;
-        color:#66a992;
-    }
- 
+	.menu {
+		position:relative;
+		display:inline-block;
+	}
+	
+	.menu ul.active {
+		display:none;
+	}
+	
+	.menu ul {
+		width:100%;
+		position:absolute;
+		top:120%;
+		left:0px;
+		padding:10px 18px;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+		background:#303030;
+	}
+	
+	.menu ul:after {
+		width:0px;
+		height:0px;
+		position:absolute;
+		top:0%;
+		left:22px;
+		content:'';
+		transform:translate(0%, -100%);
+		border-left:7px solid transparent;
+		border-right:7px solid transparent;
+		border-bottom:7px solid #303030;
+	}
+	
+	.menu li {
+		margin:5px 0px 5px 0px;
+		float:none;
+		display:block;
+	}
+	
+	.menu a {
+		display:block;
+	}
+	
+	.toggle-nav {
+		padding:20px;
+		float:left;
+		display:inline-block;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+		background:#303030;
+		text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+		color:#777;
+		font-size:20px;
+		transition:color linear 0.15s;
+	}
+	
+	.toggle-nav:hover, .toggle-nav.active {
+		text-decoration:none;
+		color:#66a992;
+	}
+	
 }
 
 /* END JQUERY MENU */
@@ -164,18 +164,19 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;  /* how do i remove horizontal scrollbarr? */ 
-	height: 365px;
+	height: 1000px;
 	background: url(https://source.unsplash.com/random) no-repeat left top;
 	background-size: cover;
 	top: 0;
 	z-index: 1;
+	text-align: center;
 }
 
 .content {
 	margin: 0 0 0 27px;
-		margin-top: 140px;
+	margin-top: 400px;
 	margin-bottom: 42px; 
-	color: #fff;
+	color: #ecf0f1;
 	text-align: center;
 	font-size: 1.8em;
 	opacity: .5;
@@ -197,25 +198,26 @@ body {
 	text-align: center;
 	text-decoration: none;
 	    font-size: 15px; /* was 15px */ 
-	transition: 0s;
-	-webkit-transition: .3s;
-	-moz-transition: .3s;
-	-o-transition: .3s;
+	    transition: 0s;
+	    -webkit-transition: .3s;
+	    -moz-transition: .3s;
+	    -o-transition: .3s;
 	display: inline-block;  /* this is important to keep */
 	padding: 12px 29px;
 	padding-top: 10px;
+	padding-left: 14%;
 	padding-bottom: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	color: white;
+	color: #ecf0f1;
 	text-transform: uppercase;
 	opacity: .5;
 }
 
 .button-clr {
-	color: white;
+	color: #ecf0f1;
 	border: transparent;
 }
 
@@ -238,16 +240,114 @@ body {
 
 }
 
+.me_section {
+	position: relative;
+	background-color: #ecf0f1;
+	margin: 0;
+	padding: 0;
+	width: 100%;  
+	height: 1000px;
+	text-align: center;
+}
+
+
+.landscape  {
+ 	background: transparent; /* this image will be invisible until tablet */ 
+ /*	<img src="img/seattle.jpg" alt="Seattle"> *//* image will be added in tablet size */ 
+}
+
+
+.me_blurb {
+	font-size: 1.8em;
+	opacity: .5;
+	text-transform: none;
+	margin-top: 30px;
+}
+
+.skill1 {
+	font-size: 1.8em;
+	text-transform: none;
+	opacity:1.0;
+	display: inline-block;
+	background-color: #ecf0f1;
+	height: 175px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-top:0px;
+margin-bottom: 30px;
+z-index:1;
+position: relative;
+}
+
+.skill2 {
+	font-size: 1.8em;
+	text-transform: none;
+	opacity:1.0;
+	display: inline-block;
+	background-color: #ecf0f1;
+	height: 175px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-top:0px;
+margin-bottom: 30px;
+z-index:1;
+position: relative;
+}
+
+.skill3 {
+	font-size: 1.8em;
+	text-transform: none;
+
+	opacity:1.0;
+	display: inline-block;
+	background-color: #ecf0f1;
+	height: 175px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-top:0px;
+margin-bottom: 30px;
+z-index:1;
+position: relative;
+}
+
+.skill4 {
+	font-size: 1.8em;
+	text-transform: none;
+
+	opacity:1.0;
+	display: inline-block;
+	background-color: #ecf0f1;
+	height: 175px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-top:0px;
+margin-bottom: 30px;
+z-index:1;
+position: relative;
+}
+
+
+
+
+
 .grid_section {
 	margin-top:30px;
 	margin-left: 16px;
 }
 
 .tile {
-opacity:1.0;
-display: inline-block;
-background-color: #16a085;
-height: 298.52px;
+	opacity:1.0;
+	display: inline-block;
+	background-color: #16a085;
+	height: 298.52px;
 width: 323.39px; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: auto;
@@ -320,26 +420,26 @@ margin: relative;
 .footer-paragraph {
 	position: relative;
 	top: 80px;
-   left: 0;
-   right: 0;
-   font-size: 18px;
-font-style: normal; 
-font-family: sans-serif;
-text-align: left;
+	left: 0;
+	right: 0;
+	font-size: 18px;
+	font-style: normal; 
+	font-family: sans-serif;
+	text-align: left;
 }
 
 .social-icons {
-		position: relative;          
-		background-color: white; 
-		min-height: 35px;
-		margin-top: 50%;
-		margin-left: 10px;
-		margin-bottom: 0px;
-		padding-bottom: 0px;
-		align: center;
-		bottom: 0px;
-		width: 100%;
-		height: 100%;
+	position: relative;          
+	background-color: white; 
+	min-height: 35px;
+	margin-top: 50%;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	align: center;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
 }
 
 .icon {
@@ -361,12 +461,12 @@ text-align: left;
 
 
 
-.cpyrt h6 {
-	position: fixed; 
-   bottom: 8px;
-   left: 0;
-   right: 0;
-   font-size: 12px;
+.cpyrt  {
+	position: fixed; 	/* meed to fix this issue.. troubleshooting */  
+	bottom: 8px;
+	left: 0;
+	right: 0;
+	font-size: 12px;
 	font-style: normal; 
 	font-family: sans-serif;
 	text-align: center;
@@ -400,13 +500,13 @@ text-align: left;
 /* JQUERY */ 
 
 
-		    .menu {
-        width:100%;
-        padding:10px 18px;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
-        background:#303030;
-    }
+.menu {
+	width:100%;
+	padding:10px 18px;
+	box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+	border-radius:3px;
+	background:#303030;
+}
 
    /* JQERY */
 
@@ -445,7 +545,7 @@ text-align: left;
 
 
 
-}
+	}
 	/*
 .panel {
 	width: 7.1%;			/* this was 15% */
