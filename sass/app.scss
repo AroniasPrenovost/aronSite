@@ -19,7 +19,8 @@ html {
 body {
 	/* Extra small devices */
 
-	background-color: gray;
+	background-color: white;
+	margin: 0;
 
 
 /* CSS JQUERY MENU */
@@ -33,11 +34,20 @@ body {
 /*----- Menu -----*/
 @media screen and (min-width: 860px) {
 	.menu {
+/*
 		width:100%;
 		padding:10px 18px;
 		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
 		border-radius:3px;
 		background:#303030;
+*/
+			position:fixed;
+	top:0px;
+	width:100%; 
+	background-color:green;
+/*	color: #FFFFFF;*/
+	z-index:9999;
+	display: none;
 	}
 }
 
@@ -56,11 +66,15 @@ body {
 	margin-right:0px;
 }
 
-.menu a {
+/* the hamburger icon */
+.menu a {		
 	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-	color:#green;
+	color:white;
 	transition:color linear 0.15s;
+
+
 }
+/* 		*/
 
 .menu a:hover, .menu .current-item a {
 	text-decoration:none;
@@ -85,6 +99,7 @@ body {
 	.menu {
 		position:relative;
 		display:inline-block;
+
 	}
 	
 	.menu ul.active {
@@ -124,18 +139,19 @@ body {
 	.menu a {
 		display:block;
 	}
-	
+	/* hamburger background box */ 
 	.toggle-nav {
 		padding:20px;
 		float:left;
 		display:inline-block;
 		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-		border-radius:3px;
-		background:#303030;
+		border-radius:2px;
+		background:#95a5a6; 
 		text-shadow:0px 1px 0px rgba(0,0,0,0.5);
 		color:#777;
 		font-size:20px;
 		transition:color linear 0.15s;
+		height: 60px;
 	}
 	
 	.toggle-nav:hover, .toggle-nav.active {
@@ -163,9 +179,8 @@ body {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	width: 100%;  /* how do i remove horizontal scrollbarr? */ 
-	height: 1000px;
-	background: url(https://source.unsplash.com/random) no-repeat left top;
+	height: 360px;
+	background: #95a5a6;/* url(https://source.unsplash.com/random) no-repeat left top; */
 	background-size: cover;
 	top: 0;
 	z-index: 1;
@@ -174,17 +189,24 @@ body {
 
 .content {
 	margin: 0 0 0 27px;
-	margin-top: 400px;
-	margin-bottom: 42px; 
-	color: #ecf0f1;
+	margin-top: 100px;
+	margin-bottom: 0px; 
 	text-align: center;
-	font-size: 1.8em;
-	opacity: .5;
-	text-transform: none;
+    letter-spacing: 1px;
+	opacity: 1.0;
+	text-transform: uppercase;
+	font-family: 'Gotham-Medium', sans-serif;
+    color: #fff;
+}
+.content p {
+	font-family: 'Gotham-Medium', sans-serif;
+   color: white;
+    text-transform: none;
+    	font-size: 18px; 
 }
 
 .mini-header {
-	opacity: 0;
+	opacity: 1.0;
 	height: 1px;
 	width: 2px;
 }
@@ -192,32 +214,33 @@ body {
 
 
 .button {
+	display: inline-block;  /* this is important to keep */
 	cursor: pointer;
 	margin: 10px;
 	border-radius: 0px;
 	text-align: center;
 	text-decoration: none;
-	    font-size: 15px; /* was 15px */ 
+	    font-size: 18px; /* was 15px */ 
 	    transition: 0s;
 	    -webkit-transition: .3s;
 	    -moz-transition: .3s;
 	    -o-transition: .3s;
-	display: inline-block;  /* this is important to keep */
+	
 	padding: 12px 29px;
-	padding-top: 10px;
+	padding-top: 60px;
 	padding-left: 14%;
 	padding-bottom: 0px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Dosis", AndaleMono, monospace;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
-	color: #ecf0f1;
-	text-transform: uppercase;
-	opacity: .5;
+	color: white;
+	text-transform: none;
+	opacity: 1.0;
 }
 
 .button-clr {
-	color: #ecf0f1;
+	color: white;
 	border: transparent;
 }
 
@@ -242,11 +265,12 @@ body {
 
 .me_section {
 	position: relative;
-	background-color: #ecf0f1;
+	background-color: white;
 	margin: 0;
 	padding: 0;
 	width: 100%;  
 	height: 1000px;
+	font-family: "Dosis", AndaleMono, monospace;
 	text-align: center;
 }
 
@@ -256,22 +280,51 @@ body {
  /*	<img src="img/seattle.jpg" alt="Seattle"> *//* image will be added in tablet size */ 
 }
 
+.bio_box {
+		position: relative;
+		background-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;  
+	height: 250px;
+	text-align: center;
 
-.me_blurb {
-	font-size: 1.8em;
-	opacity: .5;
-	text-transform: none;
-	margin-top: 30px;
 }
+
+.about_me {
+	margin-top: 95px;
+	text-transform: uppercase;
+    color: black;
+	font-family: 'Gotham-Medium', sans-serif;
+	font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    letter-spacing: 5px;
+}
+
+
+.my_bio {
+	text-transform: none;
+    color: black;
+	font-family: 'Gotham-Medium', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 0px;
+    letter-spacing:0px;
+}
+
+
+
 
 .skill1 {
 	font-size: 1.8em;
 	text-transform: none;
 	opacity:1.0;
 	display: inline-block;
-	background-color: #ecf0f1;
-	height: 175px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
+	background-color: yellow;
+	color: #34495e;
+	height: 275px;
+width: 100%; 
 border-radius:0%;
 margin-left: auto;
 margin-right: auto;
@@ -287,7 +340,7 @@ position: relative;
 	opacity:1.0;
 	display: inline-block;
 	background-color: #ecf0f1;
-	height: 175px;
+	height: 275px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: auto;
@@ -301,11 +354,10 @@ position: relative;
 .skill3 {
 	font-size: 1.8em;
 	text-transform: none;
-
 	opacity:1.0;
 	display: inline-block;
 	background-color: #ecf0f1;
-	height: 175px;
+	height: 275px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: auto;
@@ -319,11 +371,10 @@ position: relative;
 .skill4 {
 	font-size: 1.8em;
 	text-transform: none;
-
 	opacity:1.0;
 	display: inline-block;
 	background-color: #ecf0f1;
-	height: 175px;
+	height: 275px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: auto;
@@ -462,7 +513,7 @@ margin: relative;
 
 
 .cpyrt  {
-	position: fixed; 	/* meed to fix this issue.. troubleshooting */  
+	position: relative; 	/* meed to fix this issue.. troubleshooting */  
 	bottom: 8px;
 	left: 0;
 	right: 0;

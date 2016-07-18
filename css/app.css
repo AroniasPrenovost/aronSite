@@ -13,10 +13,13 @@ html {
 /* ^^^ was adding that a good idea? ^^^ */
 body {
   /* Extra small devices */
-  background-color: gray;
+  background-color: white;
+  margin: 0;
   /* CSS JQUERY MENU */
   /*----- Toggle Button -----*/
   /*----- Menu -----*/
+  /* the hamburger icon */
+  /* 		*/
   /*----- Responsive -----*/
   /* END JQUERY MENU */
   /* 
@@ -45,11 +48,20 @@ body {
     display: none; }
   @media screen and (min-width: 860px) {
     body .menu {
+      /*
+		width:100%;
+		padding:10px 18px;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+		background:#303030;
+*/
+      position: fixed;
+      top: 0px;
       width: 100%;
-      padding: 10px 18px;
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      border-radius: 3px;
-      background: #303030; } }
+      background-color: green;
+      /*	color: #FFFFFF;*/
+      z-index: 9999;
+      display: none; } }
   body .menu ul {
     display: inline-block; }
   body .menu li {
@@ -61,7 +73,7 @@ body {
     margin-right: 0px; }
   body .menu a {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-    color: #green;
+    color: white;
     transition: color linear 0.15s; }
   body .menu a:hover, body .menu .current-item a {
     text-decoration: none;
@@ -73,51 +85,54 @@ body {
     body .search-form input {
       width: 120px; } }
   @media screen and (max-width: 860px) {
-    body .menu {
-      position: relative;
-      display: inline-block; }
-    body .menu ul.active {
-      display: none; }
-    body .menu ul {
-      width: 100%;
-      position: absolute;
-      top: 120%;
-      left: 0px;
-      padding: 10px 18px;
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      border-radius: 3px;
-      background: #303030; }
-    body .menu ul:after {
-      width: 0px;
-      height: 0px;
-      position: absolute;
-      top: 0%;
-      left: 22px;
-      content: '';
-      transform: translate(0%, -100%);
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-bottom: 7px solid #303030; }
-    body .menu li {
-      margin: 5px 0px 5px 0px;
-      float: none;
-      display: block; }
-    body .menu a {
-      display: block; }
-    body .toggle-nav {
-      padding: 20px;
-      float: left;
-      display: inline-block;
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      border-radius: 3px;
-      background: #303030;
-      text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-      color: #777;
-      font-size: 20px;
-      transition: color linear 0.15s; }
-    body .toggle-nav:hover, body .toggle-nav.active {
-      text-decoration: none;
-      color: #66a992; } }
+    body {
+      /* hamburger background box */ }
+      body .menu {
+        position: relative;
+        display: inline-block; }
+      body .menu ul.active {
+        display: none; }
+      body .menu ul {
+        width: 100%;
+        position: absolute;
+        top: 120%;
+        left: 0px;
+        padding: 10px 18px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+        background: #303030; }
+      body .menu ul:after {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 0%;
+        left: 22px;
+        content: '';
+        transform: translate(0%, -100%);
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid #303030; }
+      body .menu li {
+        margin: 5px 0px 5px 0px;
+        float: none;
+        display: block; }
+      body .menu a {
+        display: block; }
+      body .toggle-nav {
+        padding: 20px;
+        float: left;
+        display: inline-block;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 2px;
+        background: #95a5a6;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+        color: #777;
+        font-size: 20px;
+        transition: color linear 0.15s;
+        height: 60px; }
+      body .toggle-nav:hover, body .toggle-nav.active {
+        text-decoration: none;
+        color: #66a992; } }
   body .container {
     /*	position: relative; used to be absolute */
     left: 0;
@@ -126,54 +141,59 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    width: 100%;
-    /* how do i remove horizontal scrollbarr? */
-    height: 1000px;
-    background: url(https://source.unsplash.com/random) no-repeat left top;
+    height: 360px;
+    background: #95a5a6;
+    /* url(https://source.unsplash.com/random) no-repeat left top; */
     background-size: cover;
     top: 0;
     z-index: 1;
     text-align: center; }
   body .content {
     margin: 0 0 0 27px;
-    margin-top: 400px;
-    margin-bottom: 42px;
-    color: #ecf0f1;
+    margin-top: 100px;
+    margin-bottom: 0px;
     text-align: center;
-    font-size: 1.8em;
-    opacity: .5;
-    text-transform: none; }
+    letter-spacing: 1px;
+    opacity: 1.0;
+    text-transform: uppercase;
+    font-family: 'Gotham-Medium', sans-serif;
+    color: #fff; }
+  body .content p {
+    font-family: 'Gotham-Medium', sans-serif;
+    color: white;
+    text-transform: none;
+    font-size: 18px; }
   body .mini-header {
-    opacity: 0;
+    opacity: 1.0;
     height: 1px;
     width: 2px; }
   body .button {
+    display: inline-block;
+    /* this is important to keep */
     cursor: pointer;
     margin: 10px;
     border-radius: 0px;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     /* was 15px */
     transition: 0s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -o-transition: .3s;
-    display: inline-block;
-    /* this is important to keep */
     padding: 12px 29px;
-    padding-top: 10px;
+    padding-top: 60px;
     padding-left: 14%;
     padding-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Dosis", AndaleMono, monospace;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    color: #ecf0f1;
-    text-transform: uppercase;
-    opacity: .5; }
+    color: white;
+    text-transform: none;
+    opacity: 1.0; }
   body .button-clr {
-    color: #ecf0f1;
+    color: white;
     border: transparent; }
   body .button:hover {
     color: black;
@@ -189,31 +209,52 @@ body {
     outline: none; }
   body .me_section {
     position: relative;
-    background-color: #ecf0f1;
+    background-color: white;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 1000px;
+    font-family: "Dosis", AndaleMono, monospace;
     text-align: center; }
   body .landscape {
     background: transparent;
     /* this image will be invisible until tablet */
     /*	<img src="img/seattle.jpg" alt="Seattle"> */
     /* image will be added in tablet size */ }
-  body .me_blurb {
-    font-size: 1.8em;
-    opacity: .5;
+  body .bio_box {
+    position: relative;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+    text-align: center; }
+  body .about_me {
+    margin-top: 95px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Gotham-Medium', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    letter-spacing: 5px; }
+  body .my_bio {
     text-transform: none;
-    margin-top: 30px; }
+    color: black;
+    font-family: 'Gotham-Medium', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 0px;
+    letter-spacing: 0px; }
   body .skill1 {
     font-size: 1.8em;
     text-transform: none;
     opacity: 1.0;
     display: inline-block;
-    background-color: #ecf0f1;
-    height: 175px;
+    background-color: yellow;
+    color: #34495e;
+    height: 275px;
     width: 100%;
-    /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -227,7 +268,7 @@ body {
     opacity: 1.0;
     display: inline-block;
     background-color: #ecf0f1;
-    height: 175px;
+    height: 275px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -243,7 +284,7 @@ body {
     opacity: 1.0;
     display: inline-block;
     background-color: #ecf0f1;
-    height: 175px;
+    height: 275px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -259,7 +300,7 @@ body {
     opacity: 1.0;
     display: inline-block;
     background-color: #ecf0f1;
-    height: 175px;
+    height: 275px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -364,7 +405,7 @@ body {
     height: 55px;
     align: center; }
   body .cpyrt {
-    position: fixed;
+    position: relative;
     /* meed to fix this issue.. troubleshooting */
     bottom: 8px;
     left: 0;
