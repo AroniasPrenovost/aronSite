@@ -213,7 +213,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 1000px;
+    height: 1540px;
     font-family: "Dosis", AndaleMono, monospace;
     text-align: center; }
   body .landscape {
@@ -227,7 +227,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 250px;
+    height: 255px;
     text-align: center; }
   body .about_me {
     margin-top: 95px;
@@ -236,29 +236,34 @@ body {
     font-family: 'Gotham-Medium', sans-serif;
     font-size: 22px;
     font-weight: 400;
-    margin-bottom: 38px;
+    margin-bottom: 40px;
     letter-spacing: 5px; }
   body .my_bio {
     text-transform: none;
     color: black;
     font-family: 'Gotham-Medium', sans-serif;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 13px;
+    margin-top: 50px;
     margin-bottom: 0px;
     letter-spacing: 0px; }
   body .skill1 {
     font-size: 1.8em;
     text-transform: none;
+    color: black;
+    font-family: 'Gotham-Medium', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
     opacity: 1.0;
     display: inline-block;
-    background-color: yellow;
+    background-color: white;
     color: #34495e;
     height: 275px;
     width: 100%;
     border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 30px;
     z-index: 1;
     position: relative; }
@@ -267,7 +272,7 @@ body {
     text-transform: none;
     opacity: 1.0;
     display: inline-block;
-    background-color: #ecf0f1;
+    background-color: white;
     height: 275px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
@@ -283,7 +288,7 @@ body {
     text-transform: none;
     opacity: 1.0;
     display: inline-block;
-    background-color: #ecf0f1;
+    background-color: white;
     height: 275px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
@@ -299,7 +304,7 @@ body {
     text-transform: none;
     opacity: 1.0;
     display: inline-block;
-    background-color: #ecf0f1;
+    background-color: white;
     height: 275px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
@@ -312,7 +317,7 @@ body {
     position: relative; }
   body .grid_section {
     margin-top: 30px;
-    margin-left: 16px; }
+    background-color: yellow; }
   body .tile {
     opacity: 1.0;
     display: inline-block;
@@ -323,7 +328,6 @@ body {
     border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
     margin-bottom: 30px;
     z-index: 1;
     position: relative;
@@ -382,7 +386,6 @@ body {
     text-align: left; }
   body .social-icons {
     position: relative;
-    background-color: white;
     min-height: 35px;
     margin-top: 50%;
     margin-left: 10px;
