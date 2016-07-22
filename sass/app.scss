@@ -359,12 +359,12 @@
 	}
 
 	.skill2 {
-		font-size: 1.8em;
-		text-transform: none;
-		opacity:1.0;
-		display: inline-block;
-		background-color: white;
-		height: 185px;
+	font-size: 1.8em;
+	text-transform: none;
+	opacity:1.0;
+	display: inline-block;
+	background-color: white;
+	height: 185px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
 	margin-left: auto;
@@ -381,6 +381,8 @@
 
 .aboutWriting {
 	margin-top: 40px;
+
+
 	text-transform: uppercase;
 	color: black;
 	font-family: 'Gotham-Medium', sans-serif;
@@ -464,19 +466,23 @@
 
 .introBlurb {
 	text-align: center;
-	font-family: 'Gotham-Medium', sans-serif;
+	font-family: 'Gotham-medium', sans-serif;
 	height: 315px;
 	width: 100%;
+	text-transform: uppercase;
 	background-color: yellow;
 }
 
 
 .gridSectionHead {
-
+	font-family: 'Gotham-medium', sans-serif;
+	margin-top: 92.5px;
 }
 
 .gridSectionBlurb {
-
+	font-family: 'Gotham-medium', sans-serif;
+	font-size: 11px;
+	margin-top: 55px;
 }
 
 
@@ -488,7 +494,7 @@
 
 	margin-top:0px;
 	background-color: yellow;
-	height: 2050px
+	height: 1625px
 }
 
 
@@ -497,13 +503,13 @@
 	opacity:1.0;
 	display: inline-block;
 	background-color: #16a085;
-	height: 298.52px;
-	width: 323.39px; /* this should be 100%, and then place .tile in a div */
+	height: 237.5px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
 
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	z-index:1;
 	position: relative;
 	margin: relative;

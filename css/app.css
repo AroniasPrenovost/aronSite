@@ -358,25 +358,33 @@ body {
     letter-spacing: 1px; }
   body .introBlurb {
     text-align: center;
-    font-family: 'Gotham-Medium', sans-serif;
+    font-family: 'Gotham-medium', sans-serif;
     height: 315px;
     width: 100%;
+    text-transform: uppercase;
     background-color: yellow; }
+  body .gridSectionHead {
+    font-family: 'Gotham-medium', sans-serif;
+    margin-top: 92.5px; }
+  body .gridSectionBlurb {
+    font-family: 'Gotham-medium', sans-serif;
+    font-size: 11px;
+    margin-top: 55px; }
   body .grid_section {
     margin-top: 0px;
     background-color: yellow;
-    height: 2050px; }
+    height: 1625px; }
   body .tile {
     opacity: 1.0;
     display: inline-block;
     background-color: #16a085;
-    height: 298.52px;
-    width: 323.39px;
+    height: 237.5px;
+    width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     z-index: 1;
     position: relative;
     margin: relative; }
