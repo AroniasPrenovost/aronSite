@@ -142,7 +142,7 @@ body {
     margin: 0;
     padding: 0;
     height: 360px;
-    background: #95a5a6;
+    background: gray;
     /* url(https://source.unsplash.com/random) no-repeat left top; */
     background-size: cover;
     top: 0;
@@ -362,7 +362,7 @@ body {
     height: 315px;
     width: 100%;
     text-transform: uppercase;
-    background-color: yellow; }
+    background-color: #7f8c8d; }
   body .gridSectionHead {
     font-family: 'Gotham-medium', sans-serif;
     margin-top: 92.5px; }
@@ -372,12 +372,12 @@ body {
     margin-top: 55px; }
   body .grid_section {
     margin-top: 0px;
-    background-color: yellow;
+    background-color: #7f8c8d;
     height: 1625px; }
-  body .tile {
+  body .tile1 {
     opacity: 1.0;
     display: inline-block;
-    background-color: #16a085;
+    background: transparent;
     height: 237.5px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
@@ -388,24 +388,58 @@ body {
     z-index: 1;
     position: relative;
     margin: relative; }
-  body .textbox {
+  body .tile1 > .front1 {
+    position: absolute;
+    /*THIS WAS ORIGINALLY absolute*/
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg);
+    background: #F08080;
+    width: 100%;
+    height: 237.5px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  body .tile1 > .back1 {
+    position: absolute;
+    -webkit-transform: perspective(100px) rotateY(180deg);
+    transform: perspective(100px) rotateY(180deg);
+    background: #FFA07A;
+    /* do i cut this out???? */
+    width: 100%;
+    height: 237.5px;
+    border-radius: 0px;
+    -webkit-backface-visibility: hidden;
+    transition: -webkit-transform .0s linear 0s;
+    transition: transform .0s linear 0s; }
+  body .tile1:hover > .front1 {
+    -webkit-transform: perspective(100px) rotateY(-180deg);
+    transform: perspective(100px) rotateY(-180deg); }
+  body .tile1:hover > .back1 {
+    -webkit-transform: perspective(100px) rotateY(0deg);
+    transform: perspective(100px) rotateY(0deg); }
+  body .textbox1 {
     z-index: 100;
     position: absolute;
     height: 80px;
-    left: 0;
+    left: 20px;
     right: 0;
-    bottom: 0;
-    background: black; }
-  body .heading {
+    bottom: 20px;
+    background: none; }
+  body .heading1 {
     z-index: 999;
     color: #fff;
-    font-size: 20px;
-    font-weight: bold; }
-  body .headingblurb {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -125px; }
+  body .lowerblurb1 {
     z-index: 0;
     color: #fff;
-    font-size: 20px;
-    font-weight: bold; }
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 98px;
+    left: 20px;
+    right: 0; }
   body .footer {
     position: relative;
     background-color: white;

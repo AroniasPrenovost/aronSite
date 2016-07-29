@@ -31,6 +31,8 @@
 		display:none;
 	}
 
+
+
 	/*----- Menu -----*/
 	@media screen and (min-width: 860px) {
 		.menu {
@@ -180,7 +182,7 @@
 		margin: 0;
 		padding: 0;
 		height: 360px;
-		background: #95a5a6;/* url(https://source.unsplash.com/random) no-repeat left top; */
+		background: gray;/* url(https://source.unsplash.com/random) no-repeat left top; */
 		background-size: cover;
 		top: 0;
 		z-index: 1;
@@ -470,7 +472,7 @@
 	height: 315px;
 	width: 100%;
 	text-transform: uppercase;
-	background-color: yellow;
+	background-color: #7f8c8d;
 }
 
 
@@ -493,50 +495,99 @@
 
 
 	margin-top:0px;
-	background-color: yellow;
+	background-color: #7f8c8d;
 	height: 1625px
 }
 
 
 
-.tile {
+.tile1 {
 	opacity:1.0;
 	display: inline-block;
-	background-color: #16a085;
+	background: transparent;
 	height: 237.5px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-
 	margin-bottom: 15px;
 	z-index:1;
 	position: relative;
 	margin: relative;
 }
 
-.textbox {
+.tile1 > .front1 {
+	position: absolute;		/*THIS WAS ORIGINALLY absolute*/
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 
+	width: 100%;
+	height: 237.5px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile1 > .back1 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; /* do i cut this out???? */
+	width: 100%;
+	height: 237.5px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile1:hover > .front1{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile1:hover > .back1{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+
+
+.textbox1 {
 	z-index:100;
 	position:absolute;
 	height: 80px;
-	left: 0;
+	left: 20px;
 	right: 0;
-	bottom: 0;
-	background: black;    
+	bottom: 20px;
+	background: none;    
 }
 
-.heading {
+.heading1 {
 	z-index:999;
 	color:#fff;
-	font-size:20px;
+	font-size:22px;
 	font-weight:bold;
+	margin-top: -125px;
 }
 
-.headingblurb {
+
+
+
+
+
+.lowerblurb1 {
 	z-index:0;
 	color:#fff;
-	font-size:20px;
+	font-size:16px;
 	font-weight:bold;
+	margin-top: 98px; 
+	left: 20px;
+	right: 0;
+
 }
 
 .footer {
