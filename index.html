@@ -11,6 +11,29 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/app.css">
 
+<script type="text/javascript">
+   $(document).ready(function() {
+      $("#my-menu").mmenu({
+         // options
+      }, {
+         // configuration
+         offCanvas: {
+            pageSelector: "#my-wrapper"
+         }
+      });
+   });
+</script>
+
+<!-- mmenu -->
+
+
+   <script src="path/to/jquery.js" type="text/javascript"></script>
+   <script src="path/to/jquery.mmenu.min.js" type="text/javascript"></script>
+   <link href="path/to/jquery.mmenu.css" type="text/css" rel="stylesheet" />
+
+<!-- mmenu -->
+
+
 <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
@@ -19,44 +42,21 @@
 
 <!-- NAVBAR mmenu--> 
 
-<!--
-<nav class="menu">
-	<div class="container">
-		<div class="row">  
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-    <ul class="active">
-        <li class="current-item"><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Blog</a></li>
-    </ul>
- 
-    <a class="toggle-nav" href="#">&#9776;</a>
- 
 
 
-<script>
-jQuery(document).ready(function() {
-    jQuery('.toggle-nav').click(function(e) {
-        jQuery(this).toggleClass('active');
-        jQuery('.menu ul').toggleClass('active');
- 
-        e.preventDefault();
-       
-
-
-    });
-});
-
-</script>
-</div>
-</div>
-</div>
-
-
-
-
-
-</nav><!-- menu --> 
+<nav id="mmenu">
+   <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About us</a>
+    <!--     <ul>
+            <li><a href="/about/history/">History</a></li>
+            <li><a href="/about/team/">The team</a></li>
+            <li><a href="/about/address/">Our address</a></li>
+         </ul>    -->
+      </li>
+      <li><a href="/contact/">Contact</a></li>
+   </ul>
+</nav>
 
 
 
@@ -64,6 +64,11 @@ jQuery(document).ready(function() {
 
 
 <!-- END mmenu --> 
+
+
+
+
+
 
 
 
@@ -102,92 +107,6 @@ jQuery(document).ready(function() {
 
 
 
-	<!-- SECTION 3 - grid section --> 
-
-
-
-<div class="me_section">
-<div class="container">
-<div class="row">  
-
-
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="landscape">
-					<!-- image will be added in css --> 
-								</div>
-							</div>
-						
-
-		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-	<div class="bio_box">
-		<div class="about_me">
-			<p>About Me<p>
-		</div>
-		<div class="my_bio">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis de mioto lipo sed.</p>
-		</div>
-				
-	</div>
-</div>
-
-
-
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="skill4">
-			<div class="icon4">
-				<img src="img/webdev.svg" alt="Coffee">
-			</div>
-				<div class="aboutCoffee">
-				<h5>web Developer</h5>
-				<p>Aron Prenovos </p>
-				</div>
-			</div>
-		</div>
-						
-
-						
-
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="skill4">
-			<div class="icon4">
-				<img src="img/java.svg" alt="Coffee">
-			</div>
-				<div class="aboutCoffee">
-				<h5>Creative Strategist</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscin. </p>
-				</div>
-			</div>
-		</div>
-
-
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="skill4">
-			<div class="icon4">
-				<img src="img/java.svg" alt="Coffee">
-			</div>
-				<div class="aboutCoffee">
-				<h5>Avid Student</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscin. </p>
-				</div>
-			</div>
-		</div>
-
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="skill4">
-			<div class="icon4">
-				<img src="img/java.svg" alt="Coffee">
-			</div>
-				<div class="aboutCoffee">
-				<h5>Coffee Lover</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscin. </p>
-				</div>
-			</div>
-		</div>
-
-			</div><!-- row --> 
-		</div><!-- container -->
-	</div><!-- grid_section --> 
-
 
 
 	<div class="introBlurb">
@@ -196,10 +115,9 @@ jQuery(document).ready(function() {
 
 
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="gridSectionHead">
-		 <h3>My Skills</h3></div>
-		 <div class="gridSectionBlurb">
-		  <p>Over the course of the past 12 months...I'm always looking to work with new technologies, and over time I've built my familiarity...</p></div>
+		<div class="gridSectionBlurb">
+		 <h3>Semi-long intro paragraph with a powerful call to action that invigorates the reader.</h3></div>
+
 	  
  
 </div>
@@ -224,14 +142,17 @@ jQuery(document).ready(function() {
 
 
 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+	<div class="tileframe">
 		<div class="tile1">
 			<div class="front1">
+			<img src="img/water.jpg" alt="water">
 				<div class="textbox1">
 					<div class="heading1"><h5>This could mean something.</h5>
 						<p>A newfound experience?</p></div>
 					</div>
 				</div><!--front --> 
 				<div class="back1">
+							<img src="img/water2.jpg" alt="water2">
 					<div class="textbox1">
 						<div class="heading1"><h5>This could mean something.</h5>
 							<p>A newfound experience?</p></div>
@@ -240,19 +161,21 @@ jQuery(document).ready(function() {
 							</div><!-- back --> 
 						</div>
 					</div>
-				</div>
+				</div><!--tileframe--> 
+			</div>
 
 
 
 	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="tile1">
-			<div class="front1">
+		<div class="tileframe">
+		<div class="tile2">
+			<div class="front2">
 				<div class="textbox1">
 					<div class="heading1"><h5>This could mean something.</h5>
 						<p>A newfound experience?</p></div>
 					</div>
 				</div><!--front --> 
-				<div class="back1">
+				<div class="back2">
 					<div class="textbox1">
 						<div class="heading1"><h5>This could mean something.</h5>
 							<p>A newfound experience?</p></div>
@@ -261,6 +184,7 @@ jQuery(document).ready(function() {
 							</div><!-- back --> 
 						</div>
 					</div>
+					</div><!--tileframe--> 
 				</div>
 
 
@@ -347,6 +271,8 @@ jQuery(document).ready(function() {
 				</div>
 		
 						
+
+
 
 					
 						</div><!-- row --> 
