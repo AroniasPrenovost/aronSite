@@ -1,54 +1,54 @@
 
-	/* http://getbootstrap.com/css/ */
+/* http://getbootstrap.com/css/ */
 
 
-	/*
+/*
 
-	html { 
-	  background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	}
+html { 
+background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 
-	*/
+*/
 
-	/* ^^^ was adding that a good idea? ^^^ */
+/* ^^^ was adding that a good idea? ^^^ */
 
-	body {
-		/* Extra small devices */
+body {
+/* Extra small devices */
 
-		background-color: white;
-		margin: 0;
-
-
-	/* CSS JQUERY MENU */
+background-color: white;
+margin: 0;
 
 
-	/*----- Toggle Button -----*/
-	.toggle-nav {
-		display:none;
-	}
+/* CSS JQUERY MENU */
+
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+	display:none;
+}
 
 
 
-	/*----- Menu -----*/
-	@media screen and (min-width: 860px) {
-		#menu {
-	
-			width:100%;
-			padding:10px 18px;
-			box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-			border-radius:3px;
-			background:gray;
-	
-	position:fixed;
-	top:0px;
-	width:100%; 
-	/*	color: #FFFFFF;*/
-	z-index:9999;
-	display: none;
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+	#menu {
+
+		width:100%;
+		padding:10px 18px;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+		background:gray;
+
+		position:fixed;
+		top:0px;
+		width:100%; 
+/*	color: #FFFFFF;*/
+z-index:9999;
+display: none;
 }
 }
 
@@ -67,202 +67,202 @@
 	margin-right:0px;
 }
 
-	/* the hamburger icon */
-	#menu a {		
-		text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-		color:white;
-		transition:color linear 0.15s;
+/* the hamburger icon */
+#menu a {		
+	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+	color:white;
+	transition:color linear 0.15s;
 
+
+}
+/* 		*/
+
+#menu a:hover, .menu .current-item a {
+	text-decoration:none;
+	color:#66a992;
+}
+
+
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+	.wrap {
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.search-form input {
+		width:120px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	#menu {
+		position:relative;
+		display:inline-block;
 
 	}
-	/* 		*/
 
-	#menu a:hover, .menu .current-item a {
-		text-decoration:none;
-		color:#66a992;
+	#menu ul.active {
+		display:none;
 	}
 
-
-	/*----- Responsive -----*/
-	@media screen and (max-width: 1150px) {
-		.wrap {
-			width:90%;
-		}
+	#menu ul {
+		width:100%;
+		position:absolute;
+		top:120%;
+		left:0px;
+		padding:10px 18px;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		border-radius:3px;
+		background:#303030;
 	}
 
-	@media screen and (max-width: 970px) {
-		.search-form input {
-			width:120px;
-		}
+	#menu ul:after {
+		width:0px;
+		height:0px;
+		position:absolute;
+		top:0%;
+		left:22px;
+		content:'';
+		transform:translate(0%, -100%);
+		border-left:7px solid transparent;
+		border-right:7px solid transparent;
+		border-bottom:7px solid #303030;
 	}
 
-	@media screen and (max-width: 860px) {
-		#menu {
-			position:relative;
-			display:inline-block;
-
-		}
-		
-		#menu ul.active {
-			display:none;
-		}
-		
-		#menu ul {
-			width:100%;
-			position:absolute;
-			top:120%;
-			left:0px;
-			padding:10px 18px;
-			box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-			border-radius:3px;
-			background:#303030;
-		}
-		
-		#menu ul:after {
-			width:0px;
-			height:0px;
-			position:absolute;
-			top:0%;
-			left:22px;
-			content:'';
-			transform:translate(0%, -100%);
-			border-left:7px solid transparent;
-			border-right:7px solid transparent;
-			border-bottom:7px solid #303030;
-		}
-		
-		#menu li {
-			margin:5px 0px 5px 0px;
-			float:none;
-			display:block;
-		}
-		
-		#menu a {
-			display:block;
-		}
-		/* hamburger background box */ 
-		.toggle-nav {
-			padding:20px;
-			float:left;
-			display:inline-block;
-			box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-			border-radius:2px;
-			background:#95a5a6; 
-			text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-			color:#777;
-			font-size:20px;
-			transition:color linear 0.15s;
-			height: 60px;
-		}
-		
-		.toggle-nav:hover, .toggle-nav.active {
-			text-decoration:none;
-			color:#66a992;
-		}
-		
+	#menu li {
+		margin:5px 0px 5px 0px;
+		float:none;
+		display:block;
 	}
 
-	/* END JQUERY MENU */
-
-
-
-	.container {
-		/*	position: relative; used to be absolute */ 
-		left: 0;
-		right: 0;
+	#menu a {
+		display:block;
 	}
+/* hamburger background box */ 
+.toggle-nav {
+	padding:20px;
+	float:left;
+	display:inline-block;
+	box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+	border-radius:2px;
+	background:#95a5a6; 
+	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+	color:#777;
+	font-size:20px;
+	transition:color linear 0.15s;
+	height: 60px;
+}
+
+.toggle-nav:hover, .toggle-nav.active {
+	text-decoration:none;
+	color:#66a992;
+}
+
+}
+
+/* END JQUERY MENU */
+
+
+
+.container {
+/*	position: relative; used to be absolute */ 
+left: 0;
+right: 0;
+}
 
 
 
 
 
-	.masthead {
-		position: relative;
-		margin: 0;
-		padding: 0;
-		height: 360px;
-		background: gray;/* url(https://source.unsplash.com/random) no-repeat left top; */
-		background-size: cover;
-		top: 0;
-		z-index: 1;
-		text-align: center;
-	}
+.masthead {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 360px;
+background: gray;/* url(https://source.unsplash.com/random) no-repeat left top; */
+background-size: cover;
+top: 0;
+z-index: 1;
+text-align: center;
+}
 
-	.content {
-		margin: 0 0 0 27px;
-		margin-top: 100px;
-		margin-bottom: 0px; 
-		text-align: center;
-		letter-spacing: 1px;
-		opacity: 1.0;
-		text-transform: uppercase;
-		font-family: 'Gotham-Medium', sans-serif;
-		color: #fff;
-	}
-	.content p {
-		font-family: 'Gotham-Medium', sans-serif;
-		color: white;
-		text-transform: none;
-		font-size: 18px; 
-	}
+.content {
+	margin: 0 0 0 27px;
+	margin-top: 100px;
+	margin-bottom: 0px; 
+	text-align: center;
+	letter-spacing: 1px;
+	opacity: 1.0;
+	text-transform: uppercase;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+}
+.content p {
+	font-family: 'Gotham-Medium', sans-serif;
+	color: white;
+	text-transform: none;
+	font-size: 18px; 
+}
 
-	.mini-header {
-		opacity: 1.0;
-		height: 1px;
-		width: 2px;
-	}
-
-
-
-	.button {
-		display: inline-block;  /* this is important to keep */
-		cursor: pointer;
-		margin: 10px;
-		border-radius: 0px;
-		text-align: center;
-		text-decoration: none;
-		    font-size: 18px; /* was 15px */ 
-		    transition: 0s;
-		    -webkit-transition: .3s;
-		    -moz-transition: .3s;
-		    -o-transition: .3s;
-
-		    padding: 12px 29px;
-		    padding-top: 60px;
-		    padding-left: 14%;
-		    padding-bottom: 0px;
-		    font-family: "Dosis", AndaleMono, monospace;
-		    font-style: normal;
-		    font-variant: normal;
-		    font-weight: normal;
-		    color: white;
-		    text-transform: none;
-		    opacity: 1.0;
-		}
-
-		.button-clr {
-			color: white;
-			border: transparent;
-		}
+.mini-header {
+	opacity: 1.0;
+	height: 1px;
+	width: 2px;
+}
 
 
 
-		.button:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
-		}
+.button {
+display: inline-block;  /* this is important to keep */
+cursor: pointer;
+margin: 10px;
+border-radius: 0px;
+text-align: center;
+text-decoration: none;
+font-size: 18px; /* was 15px */ 
+transition: 0s;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
 
-		.button-clr:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
+padding: 12px 29px;
+padding-top: 60px;
+padding-left: 14%;
+padding-bottom: 0px;
+font-family: "Dosis", AndaleMono, monospace;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+color: white;
+text-transform: none;
+opacity: 1.0;
+}
 
-		}
+.button-clr {
+	color: white;
+	border: transparent;
+}
+
+
+
+.button:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+}
+
+.button-clr:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+
+}
 
 
 .introBlurb {
@@ -310,7 +310,7 @@
 	position: absolute;	
 	-webkit-transform: perspective( 100px ) rotateY(0deg );
 	transform: perspective( 100px ) rotateY(0deg );
-	background: #F08080; 	
+	background: #2c3e50; 	
 	width: 100%;
 	height: 278px;
 	border-radius: 0px;
@@ -324,7 +324,8 @@
 	position: absolute;
 	-webkit-transform: perspective( 100px ) rotateY(180deg );
 	transform: perspective( 100px ) rotateY(180deg );
-	background: #FFA07A ; 
+	background: #2c3e50;
+	background: url("/img/html.jpg");
 	width: 100%;
 	height: 278px;
 	border-radius: 0px;
@@ -335,20 +336,20 @@
 
 
 .tile1:hover > .front1{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile1:hover > .back1{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
 .textbox1 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+	height: 85px;
 	left: 20px;
 	right: 0;
 	bottom: 20px;
@@ -381,14 +382,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 240px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile2 > .front2 {
@@ -420,13 +421,13 @@
 
 
 .tile2:hover > .front2{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile2:hover > .back2{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox2 {
@@ -478,14 +479,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 231px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile3 > .front3 {
@@ -517,13 +518,13 @@
 
 
 .tile3:hover > .front3{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile3:hover > .back3{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox3 {
@@ -561,14 +562,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 310px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile4 > .front4 {
@@ -600,13 +601,13 @@
 
 
 .tile4:hover > .front4{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile4:hover > .back4{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
@@ -645,14 +646,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 231px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile5 > .front5 {
@@ -684,13 +685,13 @@
 
 
 .tile5:hover > .front5{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile5:hover > .back5{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox5 {
@@ -728,14 +729,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 298px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile6 > .front6 {
@@ -767,13 +768,13 @@
 
 
 .tile6:hover > .front6{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile6:hover > .back6{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox6 {
@@ -816,14 +817,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 231px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile7 > .front7 {
@@ -855,13 +856,13 @@
 
 
 .tile7:hover > .front7{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile7:hover > .back7{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox7 {
@@ -899,14 +900,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 264.8px;
-	width: 100%;/* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%;/* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile8 > .front8 {
@@ -938,19 +939,19 @@
 
 
 .tile8:hover > .front8{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile8:hover > .back8{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox8 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+	height: 30px;
 	left: 20px;
 	right: 0;
 	bottom: 20px;
@@ -975,139 +976,72 @@
 	right: 0;
 }
 
-
-
 /* END TILE SECTION */
-
 
 
 .footer {
 	position: relative;          
 	background-color: white; 
 	font-family: Century;
-	min-height: 450px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	bottom: 0px;
 	width: 100%;
-}
 
+	img {
+		height: 25px;
+		width: 25px;
+		margin-top: 200px;
+	}
 
+	p.copyright {
+		font-size: 15px;
+		text-align:  center;
+		padding-top: 150px;
 
-.footer-pic {
-	position: relative;          
-	background-color: white; 
-	font-family: Century;
-	min-height: 25px;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	bottom: 0px;
-	width: 35px;
-	height: 35px;
-}
-
-.footer-pic img {
-	position: relative;
-	width: 100px;
-	height: 100px;
-}
-
-
-.footer-paragraph {
-	position: relative;
-	top: 80px;
-	left: 0;
-	right: 0;
-	font-size: 18px;
-	font-style: normal; 
-	font-family: sans-serif;
-	text-align: left;
-}
-
-.social-icons {
-	position: relative;          
-	min-height: 35px;
-	margin-top: 50%;
-	margin-left: 10px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	align: center;
-	bottom: 0px;
-	width: 100%;
-	height: 100%;
-}
-
-.icon {
-	display: inline-block;
-	position: relative;
-	border-radius: 0%;
-	align: center;
-	float: left;
-	padding: 12px 29px;
-}
-
-.icon img {
-	position: relative;
-	width: 55px;
-	height: 55px;
-	align: center;
+	}
 }
 
 
 
 
-.cpyrt  {
-		position: relative; 	/* meed to fix this issue.. troubleshooting */  
-		bottom: 8px;
-		left: 0;
-		right: 0;
-		font-size: 12px;
-		font-style: normal; 
-		font-family: sans-serif;
+/* 
+Small devices Tablets 
+col-sm-12
+*/
+@media (min-width: 750px) {
+	background-color: blue;
+	font-size: 25px;
+
+	.content {
+		font-size: 47px;
+	}
+
+	.mini-header {
+		margin: 0 0 0 27px;
+		margin-top: 25px;
+		color: #fff;
 		text-align: center;
-		vertical-align: bottom;
+		font-size: 20px;
+		opacity: .7;
+		text-transform: none;
 	}
 
+/* JQUERY MMENU....*/ 
 
 
-		/* 
-			Small devices Tablets 
-			col-sm-12
-		*/
-		@media (min-width: 750px) {
-			background-color: blue;
-			font-size: 25px;
+.menu {
+	width:100%;
+	padding:10px 18px;
+	box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+	border-radius:3px;
+	background:#303030;
+}
 
-			.content {
-				font-size: 47px;
-			}
+/* JQERY */
 
-			.mini-header {
-				margin: 0 0 0 27px;
-				margin-top: 25px;
-				color: #fff;
-				text-align: center;
-				font-size: 20px;
-				opacity: .7;
-				text-transform: none;
-			}
-
-	/* JQUERY */ 
-
-
-	.menu {
-		width:100%;
-		padding:10px 18px;
-		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-		border-radius:3px;
-		background:#303030;
-	}
-
-	   /* JQERY */
-
-	/* is it not best practice to have hover on tablets? */
+/* is it not best practice to have hover on tablets? */
 
 
 
@@ -1120,58 +1054,42 @@
 
 
 
-		/* 
-			Medium devices Desktops  
-			col-md-12
-		*/
-		@media (min-width: 970px) {
-			background-color: yellow;
-			font-size: 75px;
+/* 
+Medium devices Desktops  
+col-md-12
+*/
+@media (min-width: 970px) {
+	background-color: yellow;
+	font-size: 75px;
 
-			#content {
-				font-size: 70px;
-			}
-
-
-
-
-
-
-
-
-
-
-
-		}
-		/*
-	.panel {
-		width: 7.1%;			/* this was 15% */
-	/*	height: 80px;	  /* this was 200px */
-	/*	margin: .2%;   /* this was 1.66% */
-	/*	float: left;
-		color: green;
+	#content {
+		font-size: 70px;
 	}
 
-	*/
+
+
+
+}
 
 
 
 
 
-		/* 
-			Large devices Desktops  
-			col-lg-12
-		*/
-		@media (min-width: 1170px) {
-			background-color: white;
-			font-size: 75px;
 
-			#content {
-				font-size: 70px;
-			}
+/* 
+Large devices Desktops  
+col-lg-12
+*/
+@media (min-width: 1170px) {
+	background-color: white;
+	font-size: 75px;
+
+	#content {
+		font-size: 70px;
+	}
 
 
-		}		
+}		
 }
 
 

@@ -11,6 +11,16 @@ gulp.task('sass:watch', function () {
   gulp.watch('./sass/*.scss', ['sass']);
 });
 
+// Watch Files For Changes
+ gulp.task('watch', function() {
+ 	gulp.watch(['sass/*.scss', 'sass/**/*.scss'], ['sass']);
+ });
+
+
+// Default Task
+gulp.task('default', ['sass', 'watch']);
+
+
 
 
 
