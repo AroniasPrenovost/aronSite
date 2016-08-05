@@ -11,8 +11,11 @@
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/app.css">
 
-
-
+	<!--mmenu--> 
+   <link type="text/css" rel="stylesheet" href="jquery.mmenu.css"/>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="jquery.mmenu.js"></script>
+	<!--mmenu--> 
 
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
@@ -24,11 +27,40 @@
 
 
 	<!-- NAVBAR mmenu--> 
+<!--
+<nav id="menu">
+   <ul>
+     <li class="Selected">
+         <a href="demo.html">Basic Horizontal Menu</a>
+         <ul>
+             <li><a href="#">First sub-menu</a></li>
+             <li><a href="#">Second sub-menu</a>
+                 <ul>
+                     <li><a href="#">First sub-sub-menu</a></li>
+                     <li><a href="#">Second sub-sub-menu</a></li>
+                     <li><a href="#">Third sub-sub-menu</a></li>
+                 </ul>
+             </li>
+             <li><a href="#">Third sub-menu</a></li>
+         </ul>
+     </li>
+   </ul>
+</nav>
 
 
+<script type="text/javascript">
+  $(function() {
+    $('nav#menu').mmenu({
+      // options object
+    }, {
+      // configuration object
+      selectedClass: "active"
+    });
+  });
+</script>
 
 
-
+-->
 
 
 
@@ -50,8 +82,7 @@
 
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="content">
-						<h2>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-						Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem. </h2>
+						<p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Ipsum Lorem Ipsum Lorem.</p>
 					</div>
 				</div>
 
@@ -88,7 +119,7 @@
 
 
 
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
 						<div class="tile1">
 							<div class="front1">
@@ -116,31 +147,30 @@
 
 
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-
-<div class="tile2">
-<div class="front2">
-<div class="textbox2">
-<div class="heading2"><h5></h5></div>
-</div>
-</div><!--front --> 
-<div class="back2">
-<div class="textbox2">
-<div class="heading2"><h5></h5></div>
-<div class="lowerblurb2">
-<p>HTML5</p>
-</div>
-<div class="lowerblurb21">
-<p>CSS3</p></div>
-</div><!-- back --> 
-</div>
-</div>
-
-</div>
-
+											<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+										<div class="tile2">
+											<div class="front2">
+												<div class="textbox2">
+													<div class="heading2"><h5></h5></div>
+												</div>
+											</div><!--front --> 
+											<div class="back2">
+												<div class="textbox2">
+													<div class="heading2"><h5></h5></div>
+													<div class="lowerblurb2">
+														<p>HTML5</p>
+													</div>
+													<div class="lowerblurb21">
+														<p>CSS3</p></div>
+													</div><!-- back --> 
+												</div>
+											</div>
+											</div>
+								
 
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="tile3">
 <div class="front3">
 <div class="textbox3">
@@ -169,7 +199,7 @@
 
 
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="tile4">
 
 <div class="front4">
@@ -188,7 +218,7 @@
 </div>
 
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="tile5">
 <div class="front5">
 <div class="textbox5">
@@ -208,7 +238,7 @@
 </div>
 
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <div class="tile6">
 <div class="front6">
 <div class="textbox6">
@@ -231,7 +261,7 @@
 
 
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 	<!-- <canvas data-processing-sources="index_pde.pde"></canvas> -->
 	<div class="tile7">
 		<div class="front7">
@@ -254,7 +284,7 @@
 
 
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 	<div class="tile8">
 		<div class="front8">
 			<div class="textbox8">
@@ -301,9 +331,6 @@
 		<div class="row">
 
 			<div class="col-xs-12">
-
-
-
 
 					<div class="col-xs-4">
 					<a href="#">
