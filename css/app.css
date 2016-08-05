@@ -1,15 +1,15 @@
 /* http://getbootstrap.com/css/ */
 /*
 
-html { 
-background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
+	html { 
+	  background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
 
-*/
+	*/
 /* ^^^ was adding that a good idea? ^^^ */
 body {
   /* Extra small devices */
@@ -31,18 +31,19 @@ body {
   /* TILE 7 */
   /* TILE 8 */
   /* END TILE SECTION */
+  /* END OF FOOTER */
   /* 
-Small devices Tablets 
-col-sm-12
-*/
+			Small devices Tablets 
+			col-sm-12
+		*/
   /* 
-Medium devices Desktops  
-col-md-12
-*/
+			Medium devices Desktops  
+			col-md-12
+		*/
   /* 
-Large devices Desktops  
-col-lg-12
-*/ }
+			Large devices Desktops  
+			col-lg-12
+		*/ }
   body .toggle-nav {
     display: none; }
   @media screen and (min-width: 860px) {
@@ -137,7 +138,7 @@ col-lg-12
     position: relative;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 400px;
     background: gray;
     /* url(https://source.unsplash.com/random) no-repeat left top; */
     background-size: cover;
@@ -145,13 +146,15 @@ col-lg-12
     z-index: 1;
     text-align: center; }
   body .content {
-    margin: 0 0 0 27px;
-    margin-top: 100px;
+    margin: 0 0 0 0px;
+    margin-top: 160px;
     margin-bottom: 0px;
-    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: none;
     letter-spacing: 1px;
     opacity: 1.0;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: 'Gotham-Medium', sans-serif;
     color: #fff; }
   body .content p {
@@ -215,13 +218,13 @@ col-lg-12
     margin-top: 92.5px; }
   body .grid_section {
     margin-top: 0px;
-    background-color: #7f8c8d;
-    height: 2175px; }
+    background-color: white;
+    height: 1820px; }
   body .tile1 {
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 278px;
+    height: 260px;
     width: 100%;
     border-radius: 0%;
     margin-left: auto;
@@ -236,7 +239,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #2c3e50;
     width: 100%;
-    height: 278px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -248,7 +251,7 @@ col-lg-12
     background: #2c3e50;
     background: url("/img/html.jpg");
     width: 100%;
-    height: 278px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -285,7 +288,7 @@ col-lg-12
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 240px;
+    height: 260px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -301,7 +304,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #F08080;
     width: 100%;
-    height: 240px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -312,7 +315,7 @@ col-lg-12
     transform: perspective(100px) rotateY(180deg);
     background: #FFA07A;
     width: 100%;
-    height: 240px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -360,7 +363,7 @@ col-lg-12
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 231px;
+    height: 260px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -376,7 +379,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #F08080;
     width: 100%;
-    height: 231px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -387,7 +390,7 @@ col-lg-12
     transform: perspective(100px) rotateY(180deg);
     background: #FFA07A;
     width: 100%;
-    height: 231px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -424,7 +427,7 @@ col-lg-12
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 310px;
+    height: 260px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -440,7 +443,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #F08080;
     width: 100%;
-    height: 310px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -451,7 +454,7 @@ col-lg-12
     transform: perspective(100px) rotateY(180deg);
     background: #FFA07A;
     width: 100%;
-    height: 310px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -488,7 +491,7 @@ col-lg-12
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 231px;
+    height: 260px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -504,7 +507,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #F08080;
     width: 100%;
-    height: 231px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -515,7 +518,7 @@ col-lg-12
     transform: perspective(100px) rotateY(180deg);
     background: #FFA07A;
     width: 100%;
-    height: 231px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -552,7 +555,7 @@ col-lg-12
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 298px;
+    height: 260px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -568,7 +571,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #F08080;
     width: 100%;
-    height: 298px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -579,7 +582,7 @@ col-lg-12
     transform: perspective(100px) rotateY(180deg);
     background: #FFA07A;
     width: 100%;
-    height: 298px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -612,14 +615,11 @@ col-lg-12
     margin-top: 115px;
     left: 20px;
     right: 0; }
-  body #sketch {
-    height: 355px;
-    width: 251px; }
   body .tile7 {
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 231px;
+    height: 260px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
@@ -635,7 +635,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #F08080;
     width: 100%;
-    height: 231px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -646,7 +646,7 @@ col-lg-12
     transform: perspective(100px) rotateY(180deg);
     background: #FFA07A;
     width: 100%;
-    height: 231px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -683,13 +683,13 @@ col-lg-12
     opacity: 1.0;
     display: inline-block;
     background: transparent;
-    height: 264.8px;
+    height: 260px;
     width: 100%;
     /* this should be 100%, and then place .tile in a div */
     border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -5px;
+    margin-bottom: 50px;
     z-index: 1;
     position: relative;
     margin: relative; }
@@ -699,7 +699,7 @@ col-lg-12
     transform: perspective(100px) rotateY(0deg);
     background: #F08080;
     width: 100%;
-    height: 264.8px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -710,7 +710,7 @@ col-lg-12
     transform: perspective(100px) rotateY(180deg);
     background: #FFA07A;
     width: 100%;
-    height: 264.8px;
+    height: 260px;
     border-radius: 0px;
     -webkit-backface-visibility: hidden;
     transition: -webkit-transform .0s linear 0s;
@@ -744,7 +744,7 @@ col-lg-12
     left: 20px;
     right: 0; }
   body .footer {
-    position: relative;
+    position: center;
     background-color: white;
     font-family: Century;
     margin-top: 0px;
@@ -753,36 +753,571 @@ col-lg-12
     bottom: 0px;
     width: 100%; }
     body .footer img {
-      height: 25px;
-      width: 25px;
-      margin-top: 200px; }
+      position: center;
+      height: 35px;
+      width: 35px;
+      margin-top: -10px;
+      margin-left: 25px;
+      vertical-align: center; }
+    body .footer a {
+      position: center;
+      height: 10px;
+      width: 10px;
+      margin-top: 0px;
+      vertical-align: center; }
     body .footer p.copyright {
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
-      padding-top: 150px; }
+      padding-top: 20px; }
   @media (min-width: 750px) {
     body {
       background-color: blue;
       font-size: 25px;
-      /* JQUERY MMENU....*/
-      /* JQERY */
-      /* is it not best practice to have hover on tablets? */ }
+      /* TILE 1 */
+      /* TILE 2 */
+      /* TILE 3 */
+      /* TILE 4 */
+      /* TILE 5 */
+      /* TILE 6 */
+      /* TILE 7 */
+      /* TILE 8 */
+      /* END TILE SECTION */ }
       body .content {
         font-size: 47px; }
       body .mini-header {
         margin: 0 0 0 27px;
-        margin-top: 25px;
+        margin-top: 10px;
         color: #fff;
         text-align: center;
         font-size: 20px;
         opacity: .7;
         text-transform: none; }
-      body .menu {
+      body .tile1 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
         width: 100%;
-        padding: 10px 18px;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-        border-radius: 3px;
-        background: #303030; } }
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile1 > .front1 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #2c3e50;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile1 > .back1 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #2c3e50;
+        background: url("/img/html.jpg");
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile1:hover > .front1 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile1:hover > .back1 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox1 {
+        z-index: 100;
+        position: absolute;
+        height: 85px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading1 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb1 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile2 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile2 > .front2 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile2 > .back2 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile2:hover > .front2 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile2:hover > .back2 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox2 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 50px;
+        right: 0;
+        bottom: 200px;
+        background: none; }
+      body .heading2 {
+        z-index: 999;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 25px; }
+      body .lowerblurb2 {
+        z-index: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 55px;
+        font-weight: bold;
+        margin-top: 60px;
+        left: 0px;
+        right: 0; }
+      body .lowerblurb21 {
+        z-index: 0;
+        text-align: center;
+        color: #fff;
+        font-size: 55px;
+        text-align: right;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        right: 0; }
+      body .tile3 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile3 > .front3 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile3 > .back3 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile3:hover > .front3 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile3:hover > .back3 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox3 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading3 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb3 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        left: 20px;
+        right: 0; }
+      body .tile4 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile4 > .front4 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile4 > .back4 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile4:hover > .front4 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile4:hover > .back4 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox4 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading4 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb4 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile5 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile5 > .front5 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile5 > .back5 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile5:hover > .front5 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile5:hover > .back5 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox5 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading5 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb5 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile6 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile6 > .front6 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile6 > .back6 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile6:hover > .front6 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile6:hover > .back6 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox6 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading6 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb6 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body #sketch {
+        height: 355px;
+        width: 251px; }
+      body .tile7 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile7 > .front7 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile7 > .back7 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile7:hover > .front7 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile7:hover > .back7 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox7 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading7 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb7 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile8 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 218px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile8 > .front8 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile8 > .back8 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 218px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile8:hover > .front8 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile8:hover > .back8 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox8 {
+        z-index: 100;
+        position: absolute;
+        height: 30px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading8 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb8 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; } }
   @media (min-width: 970px) {
     body {
       background-color: yellow;
