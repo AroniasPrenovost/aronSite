@@ -15,13 +15,6 @@ body {
   /* Extra small devices */
   background-color: white;
   margin: 0;
-  /* CSS JQUERY MENU */
-  /*----- Toggle Button -----*/
-  /*----- Menu -----*/
-  /* the hamburger icon */
-  /* 		*/
-  /*----- Responsive -----*/
-  /* END JQUERY MENU */
   /* TILE 1 */
   /* TILE 2 */
   /* TILE 3 */
@@ -44,92 +37,6 @@ body {
 			Large devices Desktops  
 			col-lg-12
 		*/ }
-  body .toggle-nav {
-    display: none; }
-  @media screen and (min-width: 860px) {
-    body #menu {
-      width: 100%;
-      padding: 10px 18px;
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-      border-radius: 3px;
-      background: gray;
-      position: fixed;
-      top: 0px;
-      width: 100%;
-      /*	color: #FFFFFF;*/
-      z-index: 9999;
-      display: none; } }
-  body #menu ul {
-    display: inline-block; }
-  body #menu li {
-    margin: 0px 50px 0px 0px;
-    float: left;
-    list-style: none;
-    font-size: 17px; }
-  body #menu li:last-child {
-    margin-right: 0px; }
-  body #menu a {
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-    color: white;
-    transition: color linear 0.15s; }
-  body #menu a:hover, body .menu .current-item a {
-    text-decoration: none;
-    color: #66a992; }
-  @media screen and (max-width: 1150px) {
-    body .wrap {
-      width: 90%; } }
-  @media screen and (max-width: 970px) {
-    body .search-form input {
-      width: 120px; } }
-  @media screen and (max-width: 860px) {
-    body {
-      /* hamburger background box */ }
-      body #menu {
-        position: relative;
-        display: inline-block; }
-      body #menu ul.active {
-        display: none; }
-      body #menu ul {
-        width: 100%;
-        position: absolute;
-        top: 120%;
-        left: 0px;
-        padding: 10px 18px;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-        border-radius: 3px;
-        background: #303030; }
-      body #menu ul:after {
-        width: 0px;
-        height: 0px;
-        position: absolute;
-        top: 0%;
-        left: 22px;
-        content: '';
-        transform: translate(0%, -100%);
-        border-left: 7px solid transparent;
-        border-right: 7px solid transparent;
-        border-bottom: 7px solid #303030; }
-      body #menu li {
-        margin: 5px 0px 5px 0px;
-        float: none;
-        display: block; }
-      body #menu a {
-        display: block; }
-      body .toggle-nav {
-        padding: 20px;
-        float: left;
-        display: inline-block;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-        border-radius: 2px;
-        background: #95a5a6;
-        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-        color: #777;
-        font-size: 20px;
-        transition: color linear 0.15s;
-        height: 60px; }
-      body .toggle-nav:hover, body .toggle-nav.active {
-        text-decoration: none;
-        color: #66a992; } }
   body .container {
     /*	position: relative; used to be absolute */
     left: 0;
@@ -145,10 +52,11 @@ body {
     background-size: cover;
     top: 0;
     z-index: 1;
-    text-align: center; }
+    text-align: left; }
   body .content {
     margin: 0 0 0 0px;
-    margin-top: 160px;
+    margin-top: 170px;
+    /* will change when navbar gets added */
     margin-bottom: 0px;
     margin-right: 15px;
     margin-left: 15px;
@@ -162,7 +70,7 @@ body {
     font-family: 'Gotham-Medium', sans-serif;
     color: white;
     text-transform: none;
-    font-size: 28px; }
+    font-size: 25px; }
   body .button {
     display: inline-block;
     /* this is important to keep */
@@ -687,7 +595,7 @@ body {
     border-radius: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     z-index: 1;
     position: relative;
     margin: relative; }
@@ -749,28 +657,30 @@ body {
     margin-bottom: 0px;
     padding-bottom: 0px;
     bottom: 0px;
+    height: 0px;
     width: 100%; }
     body .footer img {
       position: center;
       height: 35px;
       width: 35px;
+      /*	max-width:;    need to set this breakpoint */
       margin-top: 0px;
       margin-left: 25px;
+      margin-bottom: 10px;
       vertical-align: center; }
     body .footer a {
       position: center;
-      height: 10px;
-      width: 10px;
+      height: 0px;
+      width: 0px;
       margin-top: 0px;
       vertical-align: center; }
     body .footer p.copyright {
       font-size: 12px;
       text-align: center;
-      padding-top: 20px; }
+      padding-top: 10px; }
   @media (min-width: 750px) {
     body {
-      background-color: blue;
-      font-size: 25px;
+      background-color: white;
       /* masthead section */
       /* masthead section */
       /* TILE 1 */
@@ -787,19 +697,20 @@ body {
         position: relative;
         margin: 0;
         padding: 0;
-        height: 555px;
+        height: 700px;
         background: gray;
         /* url(https://source.unsplash.com/random) no-repeat left top; */
         background-size: cover;
         top: 0;
         z-index: 1;
-        text-align: center; }
+        text-align: left; }
       body .content {
         margin: 0 0 0 0px;
-        margin-top: 160px;
+        margin-top: 180px;
+        /* will change when navbar gets added */
         margin-bottom: 0px;
         margin-right: 15px;
-        margin-left: 15px;
+        margin-left: 10px;
         text-align: none;
         letter-spacing: 1px;
         opacity: 1.0;
@@ -808,9 +719,9 @@ body {
         color: #fff; }
       body .content p {
         font-family: 'Gotham-Medium', sans-serif;
-        color: white;
+        color: black;
         text-transform: none;
-        font-size: 40px; }
+        font-size: 62.5px; }
       body .button {
         display: inline-block;
         /* this is important to keep */
@@ -865,7 +776,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -930,7 +841,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -1005,7 +916,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -1069,7 +980,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -1133,7 +1044,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -1197,7 +1108,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -1261,7 +1172,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -1325,7 +1236,7 @@ body {
         border-radius: 0%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -1387,30 +1298,668 @@ body {
         margin-bottom: 0px;
         padding-bottom: 0px;
         bottom: 0px;
+        height: 0px;
         width: 100%; }
         body .footer img {
           position: center;
-          height: 35px;
-          width: 35px;
-          margin-top: 0px;
-          margin-left: 25px;
+          height: 60px;
+          width: 55px;
+          /*	max-width:;    need to set this breakpoint */
+          margin-top: 60px;
+          margin-left: 80px;
+          margin-bottom: 30px;
           vertical-align: center; }
         body .footer a {
           position: center;
-          height: 10px;
-          width: 10px;
+          height: 0px;
+          width: 0px;
           margin-top: 0px;
           vertical-align: center; }
         body .footer p.copyright {
-          font-size: 12px;
+          font-size: 16px;
           text-align: center;
-          padding-top: 20px; } }
+          padding-top: 10px; } }
   @media (min-width: 970px) {
     body {
-      background-color: yellow;
-      font-size: 75px; }
-      body #content {
-        font-size: 70px; } }
+      background-color: white;
+      /* masthead section */
+      /* masthead section */
+      /* TILE 1 */
+      /* TILE 2 */
+      /* TILE 3 */
+      /* TILE 4 */
+      /* TILE 5 */
+      /* TILE 6 */
+      /* TILE 7 */
+      /* TILE 8 */
+      /* END TILE SECTION */
+      /* END OF FOOTER */ }
+      body .masthead {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 700px;
+        background: gray;
+        /* url(https://source.unsplash.com/random) no-repeat left top; */
+        background-size: cover;
+        top: 0;
+        z-index: 1;
+        text-align: left; }
+      body .content {
+        margin: 0 0 0 0px;
+        margin-top: 180px;
+        /* will change when navbar gets added */
+        margin-bottom: 0px;
+        margin-right: 15px;
+        margin-left: 100px;
+        text-align: none;
+        letter-spacing: 1px;
+        opacity: 1.0;
+        text-transform: none;
+        font-family: 'Gotham-Medium', sans-serif;
+        color: #fff; }
+      body .content p {
+        font-family: 'Gotham-Medium', sans-serif;
+        color: black;
+        text-transform: none;
+        font-size: 62.5px; }
+      body .button {
+        display: inline-block;
+        /* this is important to keep */
+        cursor: pointer;
+        margin: 10px;
+        border-radius: 0px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        /* was 15px */
+        transition: 0s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -o-transition: .3s;
+        padding: 12px 29px;
+        padding-top: 60px;
+        padding-left: 14%;
+        padding-bottom: 0px;
+        font-family: "Dosis", AndaleMono, monospace;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        color: white;
+        text-transform: none;
+        opacity: 1.0; }
+      body .button-clr {
+        color: white;
+        border: transparent; }
+      body .button:hover {
+        color: black;
+        transition: 0s;
+        background: transparent;
+        text-decoration: none;
+        outline: none; }
+      body .button-clr:hover {
+        color: black;
+        transition: 0s;
+        background: transparent;
+        text-decoration: none;
+        outline: none; }
+      body .grid_section {
+        margin-top: 0px;
+        background-color: white;
+        height: 4500px;
+        width: 100%; }
+      body .tile1 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile1 > .front1 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #2c3e50;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile1 > .back1 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #2c3e50;
+        background: url("/img/html.jpg");
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile1:hover > .front1 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile1:hover > .back1 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox1 {
+        z-index: 100;
+        position: absolute;
+        height: 85px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading1 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb1 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile2 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile2 > .front2 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile2 > .back2 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile2:hover > .front2 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile2:hover > .back2 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox2 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 50px;
+        right: 0;
+        bottom: 200px;
+        background: none; }
+      body .heading2 {
+        z-index: 999;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 25px; }
+      body .lowerblurb2 {
+        z-index: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 55px;
+        font-weight: bold;
+        margin-top: 60px;
+        left: 0px;
+        right: 0; }
+      body .lowerblurb21 {
+        z-index: 0;
+        text-align: center;
+        color: #fff;
+        font-size: 55px;
+        text-align: right;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        right: 0; }
+      body .tile3 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile3 > .front3 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile3 > .back3 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile3:hover > .front3 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile3:hover > .back3 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox3 {
+        z-index: 100;
+        position: absolute;
+        height: 555px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading3 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb3 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        left: 20px;
+        right: 0; }
+      body .tile4 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile4 > .front4 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile4 > .back4 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile4:hover > .front4 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile4:hover > .back4 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox4 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading4 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb4 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile5 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile5 > .front5 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile5 > .back5 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile5:hover > .front5 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile5:hover > .back5 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox5 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading5 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb5 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile6 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile6 > .front6 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile6 > .back6 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile6:hover > .front6 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile6:hover > .back6 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox6 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading6 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb6 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile7 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile7 > .front7 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile7 > .back7 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile7:hover > .front7 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile7:hover > .back7 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox7 {
+        z-index: 100;
+        position: absolute;
+        height: 80px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading7 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb7 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .tile8 {
+        opacity: 1.0;
+        display: inline-block;
+        background: transparent;
+        height: 555px;
+        width: 100%;
+        /* this should be 100%, and then place .tile in a div */
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        z-index: 1;
+        position: relative;
+        margin: relative; }
+      body .tile8 > .front8 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg);
+        background: #F08080;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile8 > .back8 {
+        position: absolute;
+        -webkit-transform: perspective(100px) rotateY(180deg);
+        transform: perspective(100px) rotateY(180deg);
+        background: #FFA07A;
+        width: 100%;
+        height: 555px;
+        border-radius: 0px;
+        -webkit-backface-visibility: hidden;
+        transition: -webkit-transform .0s linear 0s;
+        transition: transform .0s linear 0s; }
+      body .tile8:hover > .front8 {
+        -webkit-transform: perspective(100px) rotateY(-180deg);
+        transform: perspective(100px) rotateY(-180deg); }
+      body .tile8:hover > .back8 {
+        -webkit-transform: perspective(100px) rotateY(0deg);
+        transform: perspective(100px) rotateY(0deg); }
+      body .textbox8 {
+        z-index: 100;
+        position: absolute;
+        height: 30px;
+        left: 20px;
+        right: 0;
+        bottom: 20px;
+        background: none; }
+      body .heading8 {
+        z-index: 999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: -125px; }
+      body .lowerblurb8 {
+        z-index: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 115px;
+        left: 20px;
+        right: 0; }
+      body .footer {
+        position: center;
+        background-color: white;
+        font-family: Century;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        bottom: 0px;
+        height: 0px;
+        width: 100%; }
+        body .footer img {
+          position: center;
+          height: 60px;
+          width: 55px;
+          /*	max-width:;    need to set this breakpoint */
+          margin-top: 60px;
+          margin-left: 80px;
+          margin-bottom: 30px;
+          vertical-align: center; }
+        body .footer a {
+          position: center;
+          height: 0px;
+          width: 0px;
+          margin-top: 0px;
+          vertical-align: center; }
+        body .footer p.copyright {
+          font-size: 16px;
+          text-align: center;
+          padding-top: 10px; } }
   @media (min-width: 1170px) {
     body {
       background-color: white;

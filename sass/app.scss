@@ -23,145 +23,7 @@
 		margin: 0;
 
 
-	/* CSS JQUERY MENU */
 
-
-	/*----- Toggle Button -----*/
-	.toggle-nav {
-		display:none;
-	}
-
-
-
-	/*----- Menu -----*/
-	@media screen and (min-width: 860px) {
-		#menu {
-	
-			width:100%;
-			padding:10px 18px;
-			box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-			border-radius:3px;
-			background:gray;
-	
-	position:fixed;
-	top:0px;
-	width:100%; 
-	/*	color: #FFFFFF;*/
-	z-index:9999;
-	display: none;
-}
-}
-
-#menu ul {
-	display:inline-block;
-}
-
-#menu li {
-	margin:0px 50px 0px 0px;
-	float:left;
-	list-style:none;
-	font-size:17px;
-}
-
-#menu li:last-child {
-	margin-right:0px;
-}
-
-	/* the hamburger icon */
-	#menu a {		
-		text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-		color:white;
-		transition:color linear 0.15s;
-
-
-	}
-	/* 		*/
-
-	#menu a:hover, .menu .current-item a {
-		text-decoration:none;
-		color:#66a992;
-	}
-
-
-	/*----- Responsive -----*/
-	@media screen and (max-width: 1150px) {
-		.wrap {
-			width:90%;
-		}
-	}
-
-	@media screen and (max-width: 970px) {
-		.search-form input {
-			width:120px;
-		}
-	}
-
-	@media screen and (max-width: 860px) {
-		#menu {
-			position:relative;
-			display:inline-block;
-
-		}
-		
-		#menu ul.active {
-			display:none;
-		}
-		
-		#menu ul {
-			width:100%;
-			position:absolute;
-			top:120%;
-			left:0px;
-			padding:10px 18px;
-			box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-			border-radius:3px;
-			background:#303030;
-		}
-		
-		#menu ul:after {
-			width:0px;
-			height:0px;
-			position:absolute;
-			top:0%;
-			left:22px;
-			content:'';
-			transform:translate(0%, -100%);
-			border-left:7px solid transparent;
-			border-right:7px solid transparent;
-			border-bottom:7px solid #303030;
-		}
-		
-		#menu li {
-			margin:5px 0px 5px 0px;
-			float:none;
-			display:block;
-		}
-		
-		#menu a {
-			display:block;
-		}
-		/* hamburger background box */ 
-		.toggle-nav {
-			padding:20px;
-			float:left;
-			display:inline-block;
-			box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-			border-radius:2px;
-			background:#95a5a6; 
-			text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-			color:#777;
-			font-size:20px;
-			transition:color linear 0.15s;
-			height: 60px;
-		}
-		
-		.toggle-nav:hover, .toggle-nav.active {
-			text-decoration:none;
-			color:#66a992;
-		}
-		
-	}
-	/* END JQUERY MENU */
 
 
 
@@ -185,12 +47,12 @@
 		background-size: cover;
 		top: 0;
 		z-index: 1;
-		text-align: center;
+		text-align: left;
 	}
 
 	.content {
 		margin: 0 0 0 0px;
-		margin-top: 160px;
+		margin-top: 170px;  /* will change when navbar gets added */
 		margin-bottom: 0px;
 		margin-right: 15px;
 		margin-left: 15px;
@@ -205,7 +67,7 @@
 		font-family: 'Gotham-Medium', sans-serif;
 		color: white;
 		text-transform: none;
-		font-size: 28px; 
+		font-size: 25px; 
 	}
 
 
@@ -900,7 +762,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -975,6 +837,10 @@
 /* END TILE SECTION */
 
 
+
+
+
+
 .footer {
 	position: center;          
 	background-color: white; 
@@ -983,31 +849,33 @@
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	bottom: 0px;
+	height: 0px;
 	width: 100%;
 
 	img {
 		position: center;
 		height: 35px;
 		width: 35px;
+	/*	max-width:;    need to set this breakpoint */
 		margin-top: 0px;
 		margin-left: 25px;
+		margin-bottom: 10px;
 
 		vertical-align: center;
 	}
 
 	a {
-				position: center;
-		height: 10px;
-		width: 10px;
+		position: center;
+		height: 0px;
+		width: 0px;
 		margin-top: 0px;
-
 		vertical-align: center;
 	}
 
 	p.copyright {
 		font-size: 12px;
 		text-align:  center;
-		padding-top: 20px;
+		padding-top: 10px;
 
 	}
 
@@ -1024,8 +892,7 @@
 			col-sm-12
 		*/
 		@media (min-width: 750px) {
-			background-color: blue;
-			font-size: 25px;
+			background-color: white;
 
 
 
@@ -1033,24 +900,24 @@
 /* masthead section */
 
 
-	.masthead {
+.masthead {
 		position: relative;
 		margin: 0;
 		padding: 0;
-		height: 555px;
+		height: 700px;
 		background: gray;/* url(https://source.unsplash.com/random) no-repeat left top; */
 		background-size: cover;
 		top: 0;
 		z-index: 1;
-		text-align: center;
+		text-align: left;
 	}
 
 	.content {
 		margin: 0 0 0 0px;
-		margin-top: 160px;
+		margin-top: 180px;  /* will change when navbar gets added */
 		margin-bottom: 0px;
 		margin-right: 15px;
-		margin-left: 15px;
+		margin-left: 10px;
 		text-align: none;
 		letter-spacing: 1px;
 		opacity: 1.0;
@@ -1060,13 +927,10 @@
 	}
 	.content p {
 		font-family: 'Gotham-Medium', sans-serif;
-		color: white;
+		color: black;
 		text-transform: none;
-		font-size: 40px; 
+		font-size: 62.5px; 
 	}
-
-
-
 
 	.button {
 		display: inline-block;  /* this is important to keep */
@@ -1145,7 +1009,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1231,7 +1095,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1328,7 +1192,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1411,7 +1275,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1495,7 +1359,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1578,7 +1442,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1662,7 +1526,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1745,7 +1609,7 @@
 	border-radius:0%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1827,31 +1691,33 @@
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	bottom: 0px;
+	height: 0px;
 	width: 100%;
 
 	img {
 		position: center;
-		height: 35px;
-		width: 35px;
-		margin-top: 0px;
-		margin-left: 25px;
+		height: 60px;
+		width: 55px;
+	/*	max-width:;    need to set this breakpoint */
+		margin-top: 60px;
+		margin-left: 80px;
+		margin-bottom: 30px;
 
 		vertical-align: center;
 	}
 
 	a {
-				position: center;
-		height: 10px;
-		width: 10px;
+		position: center;
+		height: 0px;
+		width: 0px;
 		margin-top: 0px;
-
 		vertical-align: center;
 	}
 
 	p.copyright {
-		font-size: 12px;
+		font-size: 16px;
 		text-align:  center;
-		padding-top: 20px;
+		padding-top: 10px;
 
 	}
 
@@ -1875,15 +1741,840 @@
 			col-md-12
 		*/
 		@media (min-width: 970px) {
-			background-color: yellow;
-			font-size: 75px;
-
-			#content {
-				font-size: 70px;
-			}
+background-color: white;
 
 
 
+
+/* masthead section */
+
+
+.masthead {
+		position: relative;
+		margin: 0;
+		padding: 0;
+		height: 700px;
+		background: gray;/* url(https://source.unsplash.com/random) no-repeat left top; */
+		background-size: cover;
+		top: 0;
+		z-index: 1;
+		text-align: left;
+	}
+
+	.content {
+		margin: 0 0 0 0px;
+		margin-top: 180px;  /* will change when navbar gets added */
+		margin-bottom: 0px;
+		margin-right: 15px;
+		margin-left: 100px;
+		text-align: none;
+		letter-spacing: 1px;
+		opacity: 1.0;
+		text-transform: none;
+		font-family: 'Gotham-Medium', sans-serif;
+		color: #fff;
+	}
+	.content p {
+		font-family: 'Gotham-Medium', sans-serif;
+		color: black;
+		text-transform: none;
+		font-size: 62.5px; 
+	}
+
+	.button {
+		display: inline-block;  /* this is important to keep */
+		cursor: pointer;
+		margin: 10px;
+		border-radius: 0px;
+		text-align: center;
+		text-decoration: none;
+		    font-size: 18px; /* was 15px */ 
+		    transition: 0s;
+		    -webkit-transition: .3s;
+		    -moz-transition: .3s;
+		    -o-transition: .3s;
+
+		    padding: 12px 29px;
+		    padding-top: 60px;
+		    padding-left: 14%;
+		    padding-bottom: 0px;
+		    font-family: "Dosis", AndaleMono, monospace;
+		    font-style: normal;
+		    font-variant: normal;
+		    font-weight: normal;
+		    color: white;
+		    text-transform: none;
+		    opacity: 1.0;
+		}
+
+		.button-clr {
+			color: white;
+			border: transparent;
+		}
+
+
+
+		.button:hover {
+			color: black;
+			transition:0s;
+			background: transparent;
+			text-decoration: none;
+			outline: none;
+		}
+
+		.button-clr:hover {
+			color: black;
+			transition:0s;
+			background: transparent;
+			text-decoration: none;
+			outline: none;
+
+		}
+
+
+
+
+
+.grid_section {
+	margin-top:0px;
+	background-color: white;
+	height: 4500px;
+	width: 100%;
+}
+
+
+
+/* masthead section */ 
+
+
+/* TILE 1 */
+
+.tile1 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%;
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile1 > .front1 {
+	position: absolute;	
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #2c3e50; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile1 > .back1 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #2c3e50;
+	background: url("/img/html.jpg");
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile1:hover > .front1{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile1:hover > .back1{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+
+.textbox1 {
+	z-index:100;
+	position:absolute;
+	height: 85px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading1 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb1 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+
+/* TILE 2 */
+
+.tile2 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile2 > .front2 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile2 > .back2 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile2:hover > .front2{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile2:hover > .back2{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox2 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 50px;
+	right: 0;
+	bottom: 200px;
+	background: none;    
+}
+
+.heading2 {
+	z-index:999;
+	color:#fff;
+	font-weight:bold;
+	margin-top: 25px;
+}
+
+.lowerblurb2 {
+	z-index:0;
+	color:#fff;
+	text-align: center;
+	font-size:55px;
+	font-weight:bold;
+	margin-top: 60px; 
+	left: 0px;
+	right: 0;
+}
+
+.lowerblurb21 {
+	z-index:0;
+	text-align: center;
+	color:#fff;
+	font-size:55px;
+	text-align: right;
+	font-weight:bold;
+	margin-top: 40px; 
+	margin-right: 0px;
+	margin-bottom: 0px;
+	right: 0;
+}
+
+
+/* TILE 3 */
+
+.tile3 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile3 > .front3 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile3 > .back3 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile3:hover > .front3{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile3:hover > .back3{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox3 {
+	z-index:100;
+	position:absolute;
+	height: 555px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading3 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb3 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 20px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 4 */
+
+.tile4 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile4 > .front4 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile4 > .back4 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile4:hover > .front4{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile4:hover > .back4{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+
+.textbox4 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading4 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb4 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 5 */
+
+.tile5 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile5 > .front5 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile5 > .back5 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile5:hover > .front5{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile5:hover > .back5{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox5 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading5 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb5 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 6 */
+
+.tile6 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile6 > .front6 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile6 > .back6 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile6:hover > .front6{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile6:hover > .back6{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox6 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading6 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb6 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 7 */
+
+
+.tile7 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile7 > .front7 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile7 > .back7 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background:  #FFA07A ;
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile7:hover > .front7{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile7:hover > .back7{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox7 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading7 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb7 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 8 */
+
+.tile8 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 555px;
+	width: 100%;/* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile8 > .front8 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile8 > .back8 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 555px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile8:hover > .front8{
+		-webkit-transform: perspective( 100px ) rotateY( -180deg );
+		transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile8:hover > .back8{
+		-webkit-transform: perspective(100px ) rotateY( 0deg );
+		transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox8 {
+	z-index:100;
+	position:absolute;
+	height: 30px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading8 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb8 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* END TILE SECTION */
+
+.footer {
+	position: center;          
+	background-color: white; 
+	font-family: Century;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+
+	img {
+		position: center;
+		height: 60px;
+		width: 55px;
+	/*	max-width:;    need to set this breakpoint */
+		margin-top: 60px;
+		margin-left: 80px;
+		margin-bottom: 30px;
+
+		vertical-align: center;
+	}
+
+	a {
+		position: center;
+		height: 0px;
+		width: 0px;
+		margin-top: 0px;
+		vertical-align: center;
+	}
+
+	p.copyright {
+		font-size: 16px;
+		text-align:  center;
+		padding-top: 10px;
+
+	}
+
+
+
+
+
+} /* END OF FOOTER */
 
 		}
 
