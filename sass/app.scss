@@ -505,7 +505,7 @@
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 260px;
+	height: 300px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
 	margin-left: auto;
@@ -522,7 +522,7 @@
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 260px;
+	height: 300px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -536,7 +536,7 @@
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 260px;
+	height: 300px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -588,7 +588,7 @@
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 260px;
+	height: 200px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
 	margin-left: auto;
@@ -605,7 +605,7 @@
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 260px;
+	height: 200px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -619,7 +619,7 @@
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 260px;
+	height: 200px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -858,7 +858,7 @@
 	/*	max-width:;    need to set this breakpoint */
 		margin-top: 0px;
 		margin-left: 25px;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 
 		vertical-align: center;
 	}
@@ -872,9 +872,10 @@
 	}
 
 	p.copyright {
-		font-size: 12px;
+		font-size: 1.2rem;
 		text-align:  center;
 		padding-top: 10px;
+		padding-bottom: 17.5px;
 
 	}
 
@@ -987,8 +988,8 @@
 .grid_section {
 	margin-top:0px;
 	background-color: white;
-	height: 4500px;
-	width: 100%;
+	height: 4150px;
+	width: 680px;
 }
 
 
@@ -1005,9 +1006,9 @@
 	height: 555px;
 	width: 100%;
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1088,14 +1089,14 @@
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 555px;
+	height: 421px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
-	position: relative;
+	position: center;
 	margin: relative;
 }
 
@@ -1105,7 +1106,7 @@
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 555px;
+	height: 421px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1119,7 +1120,7 @@
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 555px;
+	height: 421px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1185,12 +1186,12 @@
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 555px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
+	height: 600px;
+	width: 647.84px; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1202,7 +1203,7 @@
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 555px;
+	height: 600px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1216,7 +1217,7 @@
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 555px;
+	height: 600px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1271,9 +1272,9 @@
 	height: 555px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1355,9 +1356,9 @@
 	height: 555px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1435,12 +1436,12 @@
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 555px;
+	height: 200px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1452,7 +1453,7 @@
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 555px;
+	height: 200px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1466,7 +1467,7 @@
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 555px;
+	height: 200px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1522,9 +1523,9 @@
 	height: 555px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1605,9 +1606,9 @@
 	height: 555px;
 	width: 100%;/* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
-	margin-left: auto;
+	margin-left: 45px;
 	margin-right: auto;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
 	margin: relative;
@@ -1694,11 +1695,11 @@
 
 	img {
 		position: center;
-		height: 60px;
-		width: 55px;
+		height: 25px;
+		width: 25px;
 	/*	max-width:;    need to set this breakpoint */
-		margin-top: 60px;
-		margin-left: 80px;
+		margin-top: 30px;
+		margin-left: 90px;
 		margin-bottom: 30px;
 
 		vertical-align: center;
@@ -1713,7 +1714,7 @@
 	}
 
 	p.copyright {
-		font-size: 16px;
+		font-size: 12px;
 		text-align:  center;
 		padding-top: 10px;
 
@@ -2555,7 +2556,7 @@ background-color: white;
 		width: 55px;
 	/*	max-width:;    need to set this breakpoint */
 		margin-top: 80px;
-		margin-left: 135px;
+		margin-left: 125px;
 		margin-bottom: 0px;
 
 		vertical-align: center;
@@ -2574,6 +2575,7 @@ background-color: white;
 		text-align:  center;
 		padding-top: 10px;
 		vertical-align: center;
+
 
 	}
 
