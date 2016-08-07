@@ -762,7 +762,7 @@ body {
       body .grid_section {
         margin-top: 0px;
         background-color: white;
-        height: 4150px;
+        height: 3775px;
         width: 680px; }
       body .tile1 {
         opacity: 1.0;
@@ -832,7 +832,7 @@ body {
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 421px;
+        height: 420px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -848,7 +848,7 @@ body {
         transform: perspective(100px) rotateY(0deg);
         background: #F08080;
         width: 100%;
-        height: 421px;
+        height: 420px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -859,7 +859,7 @@ body {
         transform: perspective(100px) rotateY(180deg);
         background: #FFA07A;
         width: 100%;
-        height: 421px;
+        height: 420px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -907,8 +907,8 @@ body {
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 600px;
-        width: 647.84px;
+        height: 375px;
+        width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 45px;
@@ -921,9 +921,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(0deg);
         transform: perspective(100px) rotateY(0deg);
-        background: #F08080;
+        background: #27ae60;
         width: 100%;
-        height: 600px;
+        height: 375px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -932,9 +932,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(180deg);
         transform: perspective(100px) rotateY(180deg);
-        background: #FFA07A;
+        background: #16a085;
         width: 100%;
-        height: 600px;
+        height: 375px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -948,7 +948,7 @@ body {
       body .textbox3 {
         z-index: 100;
         position: absolute;
-        height: 555px;
+        height: 325px;
         left: 20px;
         right: 0;
         bottom: 20px;
@@ -958,7 +958,7 @@ body {
         color: #fff;
         font-size: 22px;
         font-weight: bold;
-        margin-top: -125px; }
+        margin-top: 5px; }
       body .lowerblurb3 {
         z-index: 0;
         color: #fff;
@@ -971,7 +971,7 @@ body {
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 555px;
+        height: 500px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -987,7 +987,7 @@ body {
         transform: perspective(100px) rotateY(0deg);
         background: #F08080;
         width: 100%;
-        height: 555px;
+        height: 500px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -998,7 +998,7 @@ body {
         transform: perspective(100px) rotateY(180deg);
         background: #FFA07A;
         width: 100%;
-        height: 555px;
+        height: 500px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1035,7 +1035,7 @@ body {
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 555px;
+        height: 475px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -1049,9 +1049,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(0deg);
         transform: perspective(100px) rotateY(0deg);
-        background: #F08080;
+        background: #95a5a6;
         width: 100%;
-        height: 555px;
+        height: 475px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1060,9 +1060,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(180deg);
         transform: perspective(100px) rotateY(180deg);
-        background: #FFA07A;
+        background: #7f8c8d;
         width: 100%;
-        height: 555px;
+        height: 475px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1099,7 +1099,7 @@ body {
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 200px;
+        height: 320px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -1113,9 +1113,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(0deg);
         transform: perspective(100px) rotateY(0deg);
-        background: #F08080;
+        background: #2980b9;
         width: 100%;
-        height: 200px;
+        height: 320px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1124,9 +1124,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(180deg);
         transform: perspective(100px) rotateY(180deg);
-        background: #FFA07A;
+        background: #3498db;
         width: 100%;
-        height: 200px;
+        height: 320px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1163,7 +1163,7 @@ body {
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 555px;
+        height: 420px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -1177,9 +1177,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(0deg);
         transform: perspective(100px) rotateY(0deg);
-        background: #F08080;
+        background: #16a085;
         width: 100%;
-        height: 555px;
+        height: 420px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1188,9 +1188,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(180deg);
         transform: perspective(100px) rotateY(180deg);
-        background: #FFA07A;
+        background: #1abc9c;
         width: 100%;
-        height: 555px;
+        height: 420px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1227,7 +1227,7 @@ body {
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 555px;
+        height: 545px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -1241,9 +1241,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(0deg);
         transform: perspective(100px) rotateY(0deg);
-        background: #F08080;
+        background: #c0392b;
         width: 100%;
-        height: 555px;
+        height: 545px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1252,9 +1252,9 @@ body {
         position: absolute;
         -webkit-transform: perspective(100px) rotateY(180deg);
         transform: perspective(100px) rotateY(180deg);
-        background: #FFA07A;
+        background: #e74c3c;
         width: 100%;
-        height: 555px;
+        height: 545px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -1299,11 +1299,11 @@ body {
         width: 100%; }
         body .footer img {
           position: center;
-          height: 25px;
-          width: 25px;
+          height: 35px;
+          width: 35px;
           /*	max-width:;    need to set this breakpoint */
-          margin-top: 30px;
-          margin-left: 90px;
+          margin-top: 45px;
+          margin-left: 120px;
           margin-bottom: 30px;
           vertical-align: center; }
         body .footer a {
@@ -1313,8 +1313,10 @@ body {
           margin-top: 0px;
           vertical-align: center; }
         body .footer p.copyright {
-          font-size: 12px;
+          position: center;
+          font-size: 1.5rem;
           text-align: center;
+          margin-left: 70px;
           padding-top: 10px; } }
   @media (min-width: 970px) {
     body {
