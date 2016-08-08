@@ -1,142 +1,152 @@
 
-	/* http://getbootstrap.com/css/ */
+/* http://getbootstrap.com/css/ */
 
 
-	/*
+/*
 
-	html { 
-	  background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	}
+html { 
+background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 
-	*/
+*/
 
-	/* ^^^ was adding that a good idea? ^^^ */
+/* ^^^ was adding that a good idea? ^^^ */
 
-	body {
-		/* Extra small devices */
+body {
+/* Extra small devices */
 
-		background-color: white;
-		margin: 0;
-
-
-
-
-
-
-	.container {
-		/*	position: relative; used to be absolute */ 
-		left: 0;
-		right: 0;
-		width: 100%;
-	}
+background-color: white;
+margin: 0;
 
 
 
 
 
-	.masthead {
-		position: relative;
-		margin: 0;
-		padding: 0;
-		height: 400px;
-		background-size: cover;
-		top: 0;
-		z-index: 1;
-		text-align: left;
-	}
 
-	.content {
-		margin: 0 0 0 0px;
-		margin-top: 170px;  /* will change when navbar gets added */
-		margin-bottom: 0px;
-		margin-right: 15px;
-		margin-left: 15px;
-		text-align: none;
-		letter-spacing: 1px;
-		opacity: 1.0;
-		text-transform: none;
-		font-family: 'Gotham-Medium', sans-serif;
-		color: #fff;
-	}
-	.content p {
-		font-family: 'Gotham-Medium', sans-serif;
-		color: white;
-		text-transform: none;
-		font-size: 25px; 
-	}
-
-
-
-
-	.button {
-		display: inline-block;  /* this is important to keep */
-		cursor: pointer;
-		margin: 10px;
-		border-radius: 0px;
-		text-align: center;
-		text-decoration: none;
-		    font-size: 18px; /* was 15px */ 
-		    transition: 0s;
-		    -webkit-transition: .3s;
-		    -moz-transition: .3s;
-		    -o-transition: .3s;
-
-		    padding: 12px 29px;
-		    padding-top: 60px;
-		    padding-left: 14%;
-		    padding-bottom: 0px;
-		    font-family: "Dosis", AndaleMono, monospace;
-		    font-style: normal;
-		    font-variant: normal;
-		    font-weight: normal;
-		    color: white;
-		    text-transform: none;
-		    opacity: 1.0;
-		}
-
-		.button-clr {
-			color: white;
-			border: transparent;
-		}
-
-
-
-		.button:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
-		}
-
-		.button-clr:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
-
-		}
-
-
-.introBlurb {
-	text-align: center;
-	font-family: 'Gotham-medium', sans-serif;
-	height: 315px;
-	width: 100%;
-	text-transform: uppercase;
-	background-color: #7f8c8d;
+.container {
+/*	position: relative; used to be absolute */ 
+left: 0;
+right: 0;
+width: 100%;
 }
 
 
-.gridSectionBlurb{
-	font-family: 'Gotham-medium', sans-serif;
-	margin-top: 92.5px;
+.navbar .nav > li > a {
+	color: black;
+
 }
+
+.navbar-brand {
+	color: black;
+	height: 50px;
+
+}
+
+.navbar-nav > li > a, .navbar-brand {
+	padding-top:90px !important; 
+	padding-bottom:0px !important;
+	height: 10px;
+
+}
+.navbar {
+	min-height:0px !important;
+	margin-left: 45px;
+}
+
+
+
+
+.masthead {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 250px;
+	background-size: cover;
+	top: 0;
+	z-index: 1;
+	text-align: left;
+}
+
+.content {
+	margin: 0 0 0 0px;
+margin-top: 0px;  /* will change when navbar gets added */
+margin-bottom: 0px;
+margin-right: 15px;
+margin-left: 15px;
+text-align: none;
+letter-spacing: 1px;
+opacity: 1.0;
+text-transform: none;
+font-family: 'Gotham-Medium', sans-serif;
+color: #fff;
+}
+.content p {
+	opacity: 0.6;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: black;
+	text-transform: none;
+	font-size: 30px; 
+}
+
+
+
+
+.button {
+display: inline-block;  /* this is important to keep */
+cursor: pointer;
+margin: 10px;
+border-radius: 0px;
+text-align: center;
+text-decoration: none;
+font-size: 18px; /* was 15px */ 
+transition: 0s;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
+
+padding: 12px 29px;
+padding-top: 60px;
+padding-left: 14%;
+padding-bottom: 0px;
+font-family: "Dosis", AndaleMono, monospace;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+color: white;
+text-transform: none;
+opacity: 1.0;
+}
+
+.button-clr {
+	color: white;
+	border: transparent;
+}
+
+
+
+.button:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+}
+
+.button-clr:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+
+}
+
+
+
 
 
 
@@ -145,6 +155,8 @@
 	background-color: white;
 	height: 1820px;
 	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 
@@ -195,13 +207,13 @@
 
 
 .tile1:hover > .front1{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile1:hover > .back1{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
@@ -241,14 +253,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 260px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile2 > .front2 {
@@ -280,13 +292,13 @@
 
 
 .tile2:hover > .front2{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile2:hover > .back2{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox2 {
@@ -338,15 +350,15 @@
 	display: inline-block;
 	background: transparent; 
 	height: 260px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
+width: 100%; /* this should be 100%, and then place .tile in a div */
 
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile3 > .front3 {
@@ -378,13 +390,13 @@
 
 
 .tile3:hover > .front3{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile3:hover > .back3{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox3 {
@@ -422,14 +434,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 260px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile4 > .front4 {
@@ -461,13 +473,13 @@
 
 
 .tile4:hover > .front4{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile4:hover > .back4{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
@@ -506,14 +518,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 300px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile5 > .front5 {
@@ -545,13 +557,13 @@
 
 
 .tile5:hover > .front5{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile5:hover > .back5{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox5 {
@@ -589,14 +601,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 200px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile6 > .front6 {
@@ -628,13 +640,13 @@
 
 
 .tile6:hover > .front6{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile6:hover > .back6{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox6 {
@@ -674,14 +686,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 260px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile7 > .front7 {
@@ -713,13 +725,13 @@
 
 
 .tile7:hover > .front7{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile7:hover > .back7{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox7 {
@@ -757,14 +769,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 260px;
-	width: 100%;/* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 25px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%;/* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 25px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile8 > .front8 {
@@ -796,13 +808,13 @@
 
 
 .tile8:hover > .front8{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile8:hover > .back8{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox8 {
@@ -855,29 +867,30 @@
 		position: center;
 		height: 35px;
 		width: 35px;
-	/*	max-width:;    need to set this breakpoint */
-		margin-top: 0px;
-		margin-left: 25px;
-		margin-bottom: 15px;
+/*	max-width:;    need to set this breakpoint */
+margin-top: 0px;
+margin-left: 25px;
+margin-bottom: 15px;
 
-		vertical-align: center;
-	}
+vertical-align: center;
+}
 
-	a {
-		position: center;
-		height: 0px;
-		width: 0px;
-		margin-top: 0px;
-		vertical-align: center;
-	}
+a {
+	position: center;
+	height: 0px;
+	width: 0px;
+	margin-top: 0px;
+	vertical-align: center;
+}
 
-	p.copyright {
-		font-size: 1.2rem;
-		text-align:  center;
-		padding-top: 10px;
-		padding-bottom: 17.5px;
+p.copyright {
+	opacity: 0.7;
+	font-size: 1.2rem;
+	text-align:  center;
+	padding-top: 10px;
+	padding-bottom: 17.5px;
 
-	}
+}
 
 
 
@@ -887,12 +900,13 @@
 
 
 
-		/* 
-			Small devices Tablets 
-			col-sm-12
-		*/
-		@media (min-width: 750px) {
-			background-color: white;
+/* 
+Small devices Tablets 
+col-sm-12
+*/
+@media (min-width: 750px) {
+	background-color: white;
+
 
 
 
@@ -901,85 +915,128 @@
 
 
 .masthead {
-		position: relative;
-		margin: 0;
-		padding: 0;
-		height: 700px;
-		background-size: cover;
-		top: 0;
-		z-index: 1;
-		text-align: left;
-	}
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 700px;
+	background-size: cover;
+	top: 0;
+	z-index: 1;
+	text-align: left;
 
-	.content {
-		margin: 0 0 0 0px;
-		margin-top: 180px;  /* will change when navbar gets added */
-		margin-bottom: 0px;
-		margin-right: 15px;
-		margin-left: 30px;
-		text-align: none;
-		letter-spacing: 1px;
-		opacity: 1.0;
-		text-transform: none;
-		font-family: 'Gotham-Medium', sans-serif;
-		color: #fff;
-	}
-	.content p {
-		font-family: 'Gotham-Medium', sans-serif;
-		color: black;
-		text-transform: none;
-		font-size: 62.5px; 
-	}
+}
 
-	.button {
-		display: inline-block;  /* this is important to keep */
-		cursor: pointer;
-		margin: 10px;
-		border-radius: 0px;
-		text-align: center;
-		text-decoration: none;
-		    font-size: 18px; /* was 15px */ 
-		    transition: 0s;
-		    -webkit-transition: .3s;
-		    -moz-transition: .3s;
-		    -o-transition: .3s;
 
-		    padding: 12px 29px;
-		    padding-top: 60px;
-		    padding-left: 14%;
-		    padding-bottom: 0px;
-		    font-family: "Dosis", AndaleMono, monospace;
-		    font-style: normal;
-		    font-variant: normal;
-		    font-weight: normal;
-		    color: white;
-		    text-transform: none;
-		    opacity: 1.0;
-		}
+.navbar {
+	min-height:0px !important;
+	margin-left: 45px;
+}
+.navbar .nav > li > a {
+	color: black;
+	opacity: .4;
+	padding-left: 0px;
 
-		.button-clr {
-			color: white;
-			border: transparent;
-		}
+}
+
+
+.navbar-nav > li > a, .navbar-brand  {
+	padding-top:30px !important; 
+	padding-bottom:0px !important;
+	height: 10px;
+	color: black;
+	font-size: 19px;
+	opacity: 0.5;
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+.navbar-brand {
+	color: black;
+	font-size: 30px;
+	opacity: 1.0;
+	margin-right: 550px;
+
+}
 
 
 
-		.button:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
-		}
 
-		.button-clr:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
 
-		}
+
+
+
+
+
+.content {
+	margin: 0 0 0 0px;
+margin-top: 180px;  /* will change when navbar gets added */
+margin-bottom: 0px;
+margin-right: 15px;
+margin-left: 30px;
+text-align: none;
+letter-spacing: 1px;
+opacity: 1.0;
+text-transform: none;
+font-family: 'Gotham-Medium', sans-serif;
+color: #fff;
+width:900px;
+}
+.content p {
+	font-family: 'Gotham-Medium', sans-serif;
+	color: black;
+	text-transform: none;
+	font-size: 60px; 
+}
+
+.button {
+display: inline-block;  /* this is important to keep */
+cursor: pointer;
+margin: 10px;
+border-radius: 0px;
+text-align: center;
+text-decoration: none;
+font-size: 18px; /* was 15px */ 
+transition: 0s;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
+
+padding: 12px 29px;
+padding-top: 60px;
+padding-left: 14%;
+padding-bottom: 0px;
+font-family: "Dosis", AndaleMono, monospace;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+color: white;
+text-transform: none;
+opacity: 1.0;
+}
+
+.button-clr {
+	color: white;
+	border: transparent;
+}
+
+
+
+.button:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+}
+
+.button-clr:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+
+}
 
 
 
@@ -989,7 +1046,9 @@
 	margin-top:0px;
 	background-color: white;
 	height: 3775px;
-	width: 680px;
+	width: 100%;
+	padding-right: 18px;
+	padding-left: 18px;
 }
 
 
@@ -1006,8 +1065,8 @@
 	height: 555px;
 	width: 100%;
 	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-bottom: -5px;
 	z-index:1;
 	position: relative;
@@ -1044,13 +1103,13 @@
 
 
 .tile1:hover > .front1{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile1:hover > .back1{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
@@ -1090,14 +1149,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 420px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: center;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile2 > .front2 {
@@ -1129,13 +1188,13 @@
 
 
 .tile2:hover > .front2{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile2:hover > .back2{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox2 {
@@ -1187,14 +1246,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 375px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile3 > .front3 {
@@ -1226,13 +1285,13 @@
 
 
 .tile3:hover > .front3{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile3:hover > .back3{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox3 {
@@ -1269,15 +1328,15 @@
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 500px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+	height: 450px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile4 > .front4 {
@@ -1286,7 +1345,7 @@
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1300,7 +1359,7 @@
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1309,13 +1368,13 @@
 
 
 .tile4:hover > .front4{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile4:hover > .back4{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
@@ -1354,14 +1413,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 475px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile5 > .front5 {
@@ -1393,13 +1452,13 @@
 
 
 .tile5:hover > .front5{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile5:hover > .back5{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox5 {
@@ -1437,14 +1496,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 320px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile6 > .front6 {
@@ -1476,13 +1535,13 @@
 
 
 .tile6:hover > .front6{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile6:hover > .back6{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox6 {
@@ -1520,15 +1579,15 @@
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 420px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+	height: 400px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile7 > .front7 {
@@ -1537,7 +1596,7 @@
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #16a085; 	
 	width: 100%;
-	height: 420px;
+	height: 400px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1551,7 +1610,7 @@
 	transform: perspective( 100px ) rotateY(180deg );
 	background:  #1abc9c;
 	width: 100%;
-	height: 420px;
+	height: 400px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -1560,13 +1619,13 @@
 
 
 .tile7:hover > .front7{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile7:hover > .back7{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox7 {
@@ -1604,14 +1663,14 @@
 	display: inline-block;
 	background: transparent; 
 	height: 545px;
-	width: 100%;/* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 45px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%;/* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile8 > .front8 {
@@ -1643,13 +1702,13 @@
 
 
 .tile8:hover > .front8{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile8:hover > .back8{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox8 {
@@ -1697,30 +1756,31 @@
 		position: center;
 		height: 35px;
 		width: 35px;
-	/*	max-width:;    need to set this breakpoint */
-		margin-top: 45px;
-		margin-left: 120px;
-		margin-bottom: 30px;
+/*	max-width:;    need to set this breakpoint */
+margin-top: 45px;
+margin-left: 120px;
+margin-bottom: 30px;
 
-		vertical-align: center;
-	}
+vertical-align: center;
+}
 
-	a {
-		position: center;
-		height: 0px;
-		width: 0px;
-		margin-top: 0px;
-		vertical-align: center;
-	}
+a {
+	position: center;
+	height: 0px;
+	width: 0px;
+	margin-top: 0px;
+	vertical-align: center;
+}
 
-	p.copyright {
-		position:center;
-		font-size: 1.5rem;
-		text-align:  center;
-		margin-left: 70px;
-		padding-top: 10px;
+p.copyright {
+	position:center;
+	opacity: 0.7;
+	font-size: 1.5rem;
+	text-align:  center;
+	margin-left: 40px;
+	padding-top: 10px;
 
-	}
+}
 
 
 
@@ -1737,13 +1797,37 @@
 
 
 
-		/* 
-			Medium devices Desktops  
-			col-md-12
-		*/
-		@media (min-width: 970px) {
-background-color: white;
+/* 
+Medium devices Desktops  
+col-md-12
+*/
+@media (min-width: 970px) {
+	background-color: white;
 
+
+
+
+	.navbar .nav > li > a {
+		color: black;
+
+	}
+
+	.navbar-brand {
+		color: black;
+		height: 50px;
+
+	}
+
+	.navbar-nav > li > a, .navbar-brand {
+		padding-top:90px !important; 
+		padding-bottom:0px !important;
+		height: 10px;
+
+	}
+	.navbar {
+		min-height:0px !important;
+		margin-left: 45px;
+	}
 
 
 
@@ -1751,85 +1835,91 @@ background-color: white;
 
 
 .masthead {
-		position: relative;
-		margin: 0px;
-		padding: 0px;
-		height: 350px;
-		top: 0px;
-		z-index: 0px;
-		text-align: left;
-	}
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 245px;
+	width: 100%;
+	max-width: 1169px;
+	top: 0px;
+	z-index: 0px;
+	text-align: left;
+	padding-right: 1px;
+	padding-left:15px;
 
 
-	.content {
-		margin: 0 0 0 0px;
-		margin-top: 180px;  /* will change when navbar gets added */
-		margin-bottom: 0px;
-		margin-right: 15px;
-		margin-left: 45px;
-		text-align: none;
-		letter-spacing: 1px;
-		opacity: 1.0;
-		text-transform: none;
-		font-family: 'Gotham-Medium', sans-serif;
-		color: #fff;
-	}
-	.content p {
-		font-family: 'Gotham-Medium', sans-serif;
-		color: black;
-		text-transform: none;
-		font-size: 35px; 
-	}
-
-	.button {
-		display: inline-block;  /* this is important to keep */
-		cursor: pointer;
-		margin: 10px;
-		border-radius: 0px;
-		text-align: center;
-		text-decoration: none;
-		    font-size: 18px; /* was 15px */ 
-		    transition: 0s;
-		    -webkit-transition: .3s;
-		    -moz-transition: .3s;
-		    -o-transition: .3s;
-
-		    padding: 12px 29px;
-		    padding-top: 60px;
-		    padding-left: 14%;
-		    padding-bottom: 0px;
-		    font-family: "Dosis", AndaleMono, monospace;
-		    font-style: normal;
-		    font-variant: normal;
-		    font-weight: normal;
-		    color: white;
-		    text-transform: none;
-		    opacity: 1.0;
-		}
-
-		.button-clr {
-			color: white;
-			border: transparent;
-		}
+}
 
 
+.content {
+	margin: 0 0 0 0px;
+margin-top: 70px;  /* will change when navbar gets added */
+margin-bottom: 0px;
+margin-right: 15px;
+margin-left: 45px;
+text-align: none;
+letter-spacing: 1px;
+opacity: 1.0;
+text-transform: none;
+font-family: 'Gotham-Medium', sans-serif;
+color: #fff;
+}
+.content p {
+	font-family: 'Gotham-Medium', sans-serif;
+	color: black;
+	text-transform: none;
+	font-size: 35px; 
+}
 
-		.button:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
-		}
+.button {
+display: inline-block;  /* this is important to keep */
+cursor: pointer;
+margin: 10px;
+border-radius: 0px;
+text-align: center;
+text-decoration: none;
+font-size: 18px; /* was 15px */ 
+transition: 0s;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
 
-		.button-clr:hover {
-			color: black;
-			transition:0s;
-			background: transparent;
-			text-decoration: none;
-			outline: none;
+padding: 12px 29px;
+padding-top: 60px;
+padding-left: 14%;
+padding-bottom: 0px;
+font-family: "Dosis", AndaleMono, monospace;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+color: white;
+text-transform: none;
+opacity: 1.0;
+}
 
-		}
+.button-clr {
+	color: white;
+	border: transparent;
+}
+
+
+
+.button:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+}
+
+.button-clr:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+
+}
 
 
 
@@ -1838,8 +1928,10 @@ background-color: white;
 .grid_section {
 	margin-top:0px;
 	background-color: white;
-	height: 1450px;
+	height: 1425px;
 	width: 100%;
+	padding-right: 42.5px;
+	padding-left: 42.5px;
 }
 
 
@@ -1894,13 +1986,897 @@ background-color: white;
 
 
 .tile1:hover > .front1{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile1:hover > .back1{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+
+.textbox1 {
+	z-index:100;
+	position:absolute;
+	height: 85px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading1 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb1 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+
+/* TILE 2 */
+
+.tile2 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 300px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
+}
+
+.tile2 > .front2 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #1abc9c; 	
+	width: 100%; 
+	height: 300px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile2 > .back2 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #2ecc71; 
+	width: 100%; 
+	height: 300px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile2:hover > .front2{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile2:hover > .back2{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox2 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 50px;
+	right: 0;
+	bottom: 200px;
+	background: none;    
+}
+
+.heading2 {
+	z-index:999;
+	color:#fff;
+	font-weight:bold;
+	margin-top: 25px;
+}
+
+.lowerblurb2 {
+	z-index:0;
+	color:#fff;
+	text-align: center;
+	font-size:55px;
+	font-weight:bold;
+	margin-top: 60px; 
+	left: 0px;
+	right: 0;
+}
+
+.lowerblurb21 {
+	z-index:0;
+	text-align: center;
+	color:#fff;
+	font-size:55px;
+	text-align: right;
+	font-weight:bold;
+	margin-top: 40px; 
+	margin-right: 0px;
+	margin-bottom: 0px;
+	right: 0;
+}
+
+
+/* TILE 3 */
+
+.tile3 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 310px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -10px;
+margin-top: -30px;
+z-index:1;
+position: relative;
+margin: relative;
+}
+
+.tile3 > .front3 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #f1c40f; 	
+	width: 100%;
+	height: 310px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile3 > .back3 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #f39c12; 
+	width: 100%;
+	height: 310px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile3:hover > .front3{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile3:hover > .back3{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox3 {
+	z-index:100;
+	position:absolute;
+	height: 555px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading3 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: 0px;
+}
+
+.lowerblurb3 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 20px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 4 */
+
+.tile4 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 260px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 15px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-top: -180px;
+z-index:0;
+position: relative;
+margin: relative;
+}
+
+.tile4 > .front4 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #2980b9; 	
+	width: 100%;
+	height: 260px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile4 > .back4 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #3498db; 
+	width: 100%;
+	height: 260px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile4:hover > .front4{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile4:hover > .back4{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+
+.textbox4 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 0px;
+	right: 0;
+	bottom: -20px;
+	background: none;    
+}
+
+.heading4 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb4 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 5 */
+
+.tile5 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 280px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -10px;
+z-index:1;
+position: relative;
+margin: relative;
+}
+
+.tile5 > .front5 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 280px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile5 > .back5 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 280px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile5:hover > .front5{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile5:hover > .back5{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox5 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading5 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb5 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 6 */
+
+.tile6 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 320px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0px;
+margin-left: 15px;
+margin-right: auto;
+margin-top: -400px;
+margin-bottom: -110px;
+z-index:1;
+position: relative;
+margin: relative;
+}
+
+.tile6 > .front6 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: green; 	
+	width: 100%;
+	height: 320px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile6 > .back6 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: green; 
+	width: 100%;
+	height: 320px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile6:hover > .front6{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile6:hover > .back6{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox6 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading6 {
+	z-index:999;
+	color:black;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb6 {
+	z-index:0;
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 7 */
+
+
+.tile7 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 420px;
+	width: 100%; /* this should be 100%, and then place .tile in a div */
+	border-radius:0%;
+	margin-left: -15px;
+	margin-right: auto;
+	margin-bottom: -30px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile7 > .front7 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #c0392b; 	
+	width: 100%;
+	height: 420px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile7 > .back7 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background:  #c0392b;
+	width: 100%;
+	height: 420px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile7:hover > .front7{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile7:hover > .back7{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox7 {
+	z-index:100;
+	position:absolute;
+	height: 80px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading7 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb7 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+/* TILE 8 */
+
+.tile8 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 320px;
+width: 100%;/* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 15px;
+margin-right: auto;
+margin-bottom: -10px;
+margin-top: -500px;
+z-index:1;
+position: relative;
+margin: relative;
+}
+
+.tile8 > .front8 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #F08080; 	
+	width: 100%;
+	height: 320px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile8 > .back8 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #FFA07A ; 
+	width: 100%;
+	height: 320px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile8:hover > .front8{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile8:hover > .back8{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox8 {
+	z-index:100;
+	position:absolute;
+	height: 30px;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading8 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb8 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+
+
+
+
+
+/* END TILE SECTION */
+
+.footer {
+	position: center;          
+	background-color: white; 
+	font-family: Century;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+
+	img {
+		position: center;
+		height: 60px;
+		width: 55px;
+/*	max-width:;    need to set this breakpoint */
+		margin-top: 80px;
+		margin-left: 125px;
+		margin-bottom: 0px;
+		vertical-align: center;
+}
+
+a {
+	position: center;
+	height: 0px;
+	width: 0px;
+	margin-top: 0px;
+	vertical-align: center;
+}
+
+p.copyright {
+	font-size: 16px;
+	text-align:  center;
+	padding-top: 10px;
+	vertical-align: center;
+
+
+}
+
+} /* END OF FOOTER */
+
+}
+
+
+
+
+
+
+/* 
+Large devices Desktops  
+col-lg-12
+*/
+@media (min-width: 1170px) {
+	background-color: white;
+
+
+
+	.navbar .nav > li > a {
+		color: black;
+	}
+
+	.navbar-brand {
+		color: black;
+	}
+
+	.navbar-nav > li > a, .navbar-brand {
+		padding-top:90px !important; 
+		padding-bottom:10px !important;
+		height: 20px;
+	}
+	.navbar {
+		min-height:20px !important;
+		padding-right: 80px;
+		padding-left: 40px;
+	}
+
+
+
+
+	.masthead {
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		height: 285px;
+		top: 0px;
+		z-index: 0px;
+		text-align: left;
+		padding-right: 80px;
+		padding-left: 80px;
+		width: 1323px;
+	}
+
+
+
+
+
+.content {
+	margin: 0 0 0 0px;
+	margin-top: 65px;  /* will change when navbar gets added */
+	margin-bottom: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-align: none;
+	letter-spacing: 1px;
+	opacity: 1.0;
+	text-transform: none;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+	width: 100%;
+}
+	.content p {
+	font-family: 'Gotham-Medium', sans-serif;
+	color: black;
+	text-transform: none;
+	font-size: 50px;
+	width: 100%;
+}
+
+
+
+
+
+.button {
+display: inline-block;  /* this is important to keep */
+cursor: pointer;
+margin: 10px;
+border-radius: 0px;
+text-align: center;
+text-decoration: none;
+font-size: 18px; /* was 15px */ 
+transition: 0s;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
+
+padding: 12px 29px;
+padding-top: 60px;
+padding-left: 14%;
+padding-bottom: 0px;
+font-family: "Dosis", AndaleMono, monospace;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+color: white;
+text-transform: none;
+opacity: 1.0;
+}
+
+.button-clr {
+	color: white;
+	border: transparent;
+}
+
+
+
+.button:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+}
+
+.button-clr:hover {
+	color: black;
+	transition:0s;
+	background: transparent;
+	text-decoration: none;
+	outline: none;
+
+}
+
+
+
+
+
+.grid_section {
+	margin-top:0px;
+	background-color: white;
+	height: 1450px;
+	width: 100%;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+
+
+/* masthead section */ 
+
+
+/* TILE 1 */
+
+.tile1 {
+	opacity:1.0;
+
+	background: transparent; 
+	height: 400px;
+	width: 100%; 
+	border-radius:0%;
+	margin-left: 15px;
+	margin-right: auto;
+	margin-bottom: -5px;
+	z-index:1;
+	position: relative;
+	margin: relative;
+}
+
+.tile1 > .front1 {
+	position: absolute;	
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: #2c3e50; 	
+	width: 100%; 
+	height: 400px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile1 > .back1 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: #2c3e50;
+	background: url("/img/html.jpg");
+	width: 100%; 
+	height: 400px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile1:hover > .front1{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile1:hover > .back1{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
@@ -1979,13 +2955,13 @@ background-color: white;
 
 
 .tile2:hover > .front2{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile2:hover > .back2{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox2 {
@@ -2077,13 +3053,13 @@ background-color: white;
 
 
 .tile3:hover > .front3{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile3:hover > .back3{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox3 {
@@ -2120,7 +3096,7 @@ background-color: white;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 360px;
+	height: 260px;
 	width: 100%; /* this should be 100%, and then place .tile in a div */
 	border-radius:0%;
 	margin-left: 15px;
@@ -2138,7 +3114,7 @@ background-color: white;
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #2980b9; 	
 	width: 100%;
-	height: 360px;
+	height: 260px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -2152,7 +3128,7 @@ background-color: white;
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #3498db; 
 	width: 100%;
-	height: 360px;
+	height: 260px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -2161,13 +3137,13 @@ background-color: white;
 
 
 .tile4:hover > .front4{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile4:hover > .back4{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 
@@ -2245,13 +3221,13 @@ background-color: white;
 
 
 .tile5:hover > .front5{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile5:hover > .back5{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox5 {
@@ -2288,16 +3264,16 @@ background-color: white;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 220px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0px;
-	margin-left: 15px;
-	margin-right: auto;
-	margin-top: -400px;
-	margin-bottom: -110px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+	height: 320px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0px;
+margin-left: 15px;
+margin-right: auto;
+margin-top: -400px;
+margin-bottom: -110px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile6 > .front6 {
@@ -2306,7 +3282,7 @@ background-color: white;
 	transform: perspective( 100px ) rotateY(0deg );
 	background: green; 	
 	width: 100%;
-	height: 200px;
+	height: 320px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -2320,7 +3296,7 @@ background-color: white;
 	transform: perspective( 100px ) rotateY(180deg );
 	background: green; 
 	width: 100%;
-	height: 200px;
+	height: 320px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -2329,13 +3305,13 @@ background-color: white;
 
 
 .tile6:hover > .front6{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile6:hover > .back6{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox6 {
@@ -2374,14 +3350,14 @@ background-color: white;
 	display: inline-block;
 	background: transparent; 
 	height: 420px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: -15px;
-	margin-right: auto;
-	margin-bottom: -30px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -30px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile7 > .front7 {
@@ -2413,13 +3389,13 @@ background-color: white;
 
 
 .tile7:hover > .front7{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile7:hover > .back7{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox7 {
@@ -2457,15 +3433,15 @@ background-color: white;
 	display: inline-block;
 	background: transparent; 
 	height: 320px;
-	width: 100%;/* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 15px;
-	margin-right: auto;
-	margin-bottom: -10px;
-	margin-top: -500px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%;/* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 15px;
+margin-right: auto;
+margin-bottom: -10px;
+margin-top: -500px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile8 > .front8 {
@@ -2497,13 +3473,13 @@ background-color: white;
 
 
 .tile8:hover > .front8{
-		-webkit-transform: perspective( 100px ) rotateY( -180deg );
-		transform: perspective( 100px ) rotateY( -180deg );
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
 }
 
 .tile8:hover > .back8{
-		-webkit-transform: perspective(100px ) rotateY( 0deg );
-		transform: perspective(100px ) rotateY( 0deg );
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
 }
 
 .textbox8 {
@@ -2556,58 +3532,44 @@ background-color: white;
 		position: center;
 		height: 60px;
 		width: 55px;
-	/*	max-width:;    need to set this breakpoint */
-		margin-top: 80px;
-		margin-left: 125px;
-		margin-bottom: 0px;
-
-		vertical-align: center;
-	}
-
-	a {
-		position: center;
-		height: 0px;
-		width: 0px;
-		margin-top: 0px;
-		vertical-align: center;
-	}
-
-	p.copyright {
-		font-size: 16px;
-		text-align:  center;
-		padding-top: 10px;
-		vertical-align: center;
+/*	max-width:;    need to set this breakpoint */
+margin-top: 80px;
+margin-left: 20px;
+margin-bottom: 0px;
 
 
-	}
+}
+
+a {
+	position: center;
+	height: 0px;
+	width: 0px;
+	margin-top: 0px;
+	vertical-align: center;
+}
+
+p.copyright {
+	font-size: 16px;
+	text-align:  center;
+	padding-top: 10px;
+	vertical-align: center;
 
 
-
-
+}
 
 } /* END OF FOOTER */
 
-		}
 
 
 
 
 
 
-		/* 
-			Large devices Desktops  
-			col-lg-12
-		*/
-		@media (min-width: 1170px) {
-			background-color: white;
-			font-size: 75px;
-
-			#content {
-				font-size: 70px;
-			}
 
 
-		}		
+
+
+}		
 }
 
 
