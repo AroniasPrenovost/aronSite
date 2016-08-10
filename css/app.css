@@ -1,16 +1,4 @@
 /* http://getbootstrap.com/css/ */
-/*
-
-html { 
-background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-*/
-/* ^^^ was adding that a good idea? ^^^ */
 body {
   /* Extra small devices */
   background-color: white;
@@ -38,35 +26,55 @@ Large devices Desktops
 col-lg-12
 */ }
   body .container {
-    /*	position: relative; used to be absolute */
     left: 0;
     right: 0;
     width: 100%; }
-  body .navbar .nav > li > a {
-    color: black; }
-  body .navbar-brand {
+  body .iconBanner {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    top: 0px;
+    z-index: 0px;
+    text-align: right;
+    padding-right: 80px;
+    padding-left: 80px;
+    width: 100%; }
+  body .nameTag {
+    margin: 0 0 0 0px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 0px;
+    text-align: none;
+    letter-spacing: 1.2px;
+    opacity: 1.0;
+    text-transform: none;
+    font-family: 'Gotham-Medium', sans-serif;
+    color: #fff;
+    width: 100%; }
+  body .nameTagName p {
+    font-family: 'Gotham-Medium', sans-serif;
+    opacity: 1.5;
     color: black;
-    height: 50px; }
-  body .navbar-nav > li > a, body .navbar-brand {
-    padding-top: 90px !important;
-    padding-bottom: 0px !important;
-    height: 10px; }
-  body .navbar {
-    min-height: 0px !important;
-    margin-left: 45px; }
+    vertical-align: right;
+    text-transform: bold;
+    font-size: 25px;
+    letter-spacing: .0px;
+    width: 100%;
+    padding-left: 82.5px; }
   body .masthead {
     position: relative;
     margin: 0;
     padding: 0;
-    height: 250px;
+    height: 340px;
     background-size: cover;
     top: 0;
     z-index: 1;
     text-align: left; }
   body .content {
     margin: 0 0 0 0px;
-    margin-top: 0px;
-    /* will change when navbar gets added */
+    margin-top: 57.5px;
     margin-bottom: 0px;
     margin-right: 15px;
     margin-left: 15px;
@@ -664,8 +672,8 @@ col-lg-12
     width: 100%; }
     body .footer img {
       position: center;
-      height: 35px;
-      width: 35px;
+      height: 20px;
+      width: 20px;
       /*	max-width:;    need to set this breakpoint */
       margin-top: 0px;
       margin-left: 25px;
@@ -678,7 +686,7 @@ col-lg-12
       margin-top: 0px;
       vertical-align: center; }
     body .footer p.copyright {
-      opacity: 0.7;
+      opacity: 0.5;
       font-size: 1.2rem;
       text-align: center;
       padding-top: 10px;
@@ -698,6 +706,39 @@ col-lg-12
       /* TILE 8 */
       /* END TILE SECTION */
       /* END OF FOOTER */ }
+      body .iconBanner {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        height: 50px;
+        top: 0px;
+        z-index: 0px;
+        text-align: right;
+        padding-right: 80px;
+        padding-left: 80px;
+        width: 100%; }
+      body .nameTag {
+        margin: 0 0 0 0px;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: none;
+        letter-spacing: 1.2px;
+        opacity: 1.0;
+        text-transform: none;
+        font-family: 'Gotham-Medium', sans-serif;
+        color: #fff;
+        width: 100%; }
+      body .nameTagName p {
+        font-family: 'Gotham-Medium', sans-serif;
+        opacity: 1.5;
+        color: black;
+        vertical-align: right;
+        text-transform: bold;
+        font-size: 25px;
+        letter-spacing: .1px;
+        width: 100%; }
       body .masthead {
         position: relative;
         margin: 0;
@@ -707,27 +748,6 @@ col-lg-12
         top: 0;
         z-index: 1;
         text-align: left; }
-      body .navbar {
-        min-height: 0px !important;
-        margin-left: 45px; }
-      body .navbar .nav > li > a {
-        color: black;
-        opacity: .4;
-        padding-left: 0px; }
-      body .navbar-nav > li > a, body .navbar-brand {
-        padding-top: 30px !important;
-        padding-bottom: 0px !important;
-        height: 10px;
-        color: black;
-        font-size: 19px;
-        opacity: 0.5;
-        margin-right: 5px;
-        margin-left: 5px; }
-      body .navbar-brand {
-        color: black;
-        font-size: 30px;
-        opacity: 1.0;
-        margin-right: 550px; }
       body .content {
         margin: 0 0 0 0px;
         margin-top: 180px;
@@ -790,7 +810,7 @@ col-lg-12
       body .grid_section {
         margin-top: 0px;
         background-color: white;
-        height: 3775px;
+        height: 3755px;
         width: 100%;
         padding-right: 18px;
         padding-left: 18px; }
@@ -939,7 +959,6 @@ col-lg-12
         background: transparent;
         height: 375px;
         width: 100%;
-        /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 0px;
         margin-right: 0px;
@@ -1003,7 +1022,6 @@ col-lg-12
         background: transparent;
         height: 450px;
         width: 100%;
-        /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 0px;
         margin-right: 0px;
@@ -1067,7 +1085,6 @@ col-lg-12
         background: transparent;
         height: 475px;
         width: 100%;
-        /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 0px;
         margin-right: 0px;
@@ -1131,7 +1148,6 @@ col-lg-12
         background: transparent;
         height: 320px;
         width: 100%;
-        /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 0px;
         margin-right: 0px;
@@ -1195,7 +1211,6 @@ col-lg-12
         background: transparent;
         height: 400px;
         width: 100%;
-        /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 0px;
         margin-right: 0px;
@@ -1259,7 +1274,6 @@ col-lg-12
         background: transparent;
         height: 545px;
         width: 100%;
-        /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 0px;
         margin-right: 0px;
@@ -1332,7 +1346,7 @@ col-lg-12
           height: 35px;
           width: 35px;
           /*	max-width:;    need to set this breakpoint */
-          margin-top: 45px;
+          margin-top: 35px;
           margin-left: 120px;
           margin-bottom: 30px;
           vertical-align: center; }
@@ -1348,7 +1362,7 @@ col-lg-12
           font-size: 1.5rem;
           text-align: center;
           margin-left: 40px;
-          padding-top: 10px; } }
+          padding-top: 20px; } }
   @media (min-width: 970px) {
     body {
       background-color: white;
@@ -1364,25 +1378,46 @@ col-lg-12
       /* TILE 8 */
       /* END TILE SECTION */
       /* END OF FOOTER */ }
-      body .navbar .nav > li > a {
-        color: black; }
-      body .navbar-brand {
+      body .iconBanner {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        height: 50px;
+        top: 0px;
+        z-index: 0px;
+        text-align: right;
+        padding-right: 80px;
+        padding-left: 80px;
+        width: 100%; }
+      body .nameTag {
+        margin: 0 0 0 0px;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: none;
+        letter-spacing: 1.2px;
+        opacity: 1.0;
+        text-transform: none;
+        font-family: 'Gotham-Medium', sans-serif;
+        color: #fff;
+        width: 100%; }
+      body .nameTagName p {
+        font-family: 'Gotham-Medium', sans-serif;
+        opacity: 1.5;
         color: black;
-        height: 50px; }
-      body .navbar-nav > li > a, body .navbar-brand {
-        padding-top: 90px !important;
-        padding-bottom: 0px !important;
-        height: 10px; }
-      body .navbar {
-        min-height: 0px !important;
-        margin-left: 45px; }
+        vertical-align: right;
+        text-transform: bold;
+        font-size: 25px;
+        letter-spacing: .1px;
+        width: 100%; }
       body .masthead {
         position: relative;
         margin: 0px;
         padding: 0px;
         height: 245px;
         width: 100%;
-        max-width: 1169px;
+        max-width: 1185px;
         top: 0px;
         z-index: 0px;
         text-align: left;
@@ -1399,8 +1434,7 @@ col-lg-12
         letter-spacing: 1px;
         opacity: 1.0;
         text-transform: none;
-        font-family: 'Gotham-Medium', sans-serif;
-        color: #fff; }
+        font-family: 'Gotham-Medium', sans-serif; }
       body .content p {
         font-family: 'Gotham-Medium', sans-serif;
         color: black;
@@ -2023,39 +2057,61 @@ col-lg-12
       /* TILE 8 */
       /* END TILE SECTION */
       /* END OF FOOTER */ }
-      body .navbar .nav > li > a {
-        color: black; }
-      body .navbar-brand {
-        color: black; }
-      body .navbar-nav > li > a, body .navbar-brand {
-        padding-top: 90px !important;
-        padding-bottom: 10px !important;
-        height: 20px; }
-      body .navbar {
-        min-height: 20px !important;
-        padding-right: 80px;
-        padding-left: 40px; }
+      body .iconBanner {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        height: 50px;
+        top: 0px;
+        z-index: 0px;
+        text-align: right;
+        padding-right: 95px;
+        padding-left: 80px;
+        width: 100%; }
+      body .nameTag {
+        margin: 0 0 0 0px;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        margin-right: 15px;
+        margin-left: 0px;
+        text-align: none;
+        letter-spacing: 1.2px;
+        opacity: 1.0;
+        text-transform: none;
+        font-family: 'Gotham-Medium', sans-serif;
+        color: #fff;
+        width: 100%; }
+      body .nameTagName p {
+        font-family: 'Gotham-Medium', sans-serif;
+        opacity: 1.5;
+        color: black;
+        vertical-align: right;
+        text-transform: bold;
+        font-size: 25px;
+        letter-spacing: .1px;
+        width: 100%; }
       body .masthead {
         position: relative;
         margin: 0px;
         padding: 0px;
-        height: 285px;
+        height: 240px;
         top: 0px;
         z-index: 0px;
         text-align: left;
         padding-right: 80px;
         padding-left: 80px;
-        width: 1323px; }
+        width: 100%;
+        max-width: 1165px; }
       body .content {
         margin: 0 0 0 0px;
-        margin-top: 65px;
+        margin-top: 50px;
         /* will change when navbar gets added */
         margin-bottom: 0px;
         margin-right: 15px;
         margin-left: 15px;
         text-align: none;
-        letter-spacing: 1px;
-        opacity: 1.0;
+        letter-spacing: 1.2px;
+        opacity: .9;
         text-transform: none;
         font-family: 'Gotham-Medium', sans-serif;
         color: #fff;
@@ -2064,7 +2120,7 @@ col-lg-12
         font-family: 'Gotham-Medium', sans-serif;
         color: black;
         text-transform: none;
-        font-size: 50px;
+        font-size: 40px;
         width: 100%; }
       body .button {
         display: inline-block;

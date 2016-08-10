@@ -2,20 +2,6 @@
 /* http://getbootstrap.com/css/ */
 
 
-/*
-
-html { 
-background: url((https://source.unsplash.com/random) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-*/
-
-/* ^^^ was adding that a good idea? ^^^ */
-
 body {
 /* Extra small devices */
 
@@ -28,43 +14,56 @@ margin: 0;
 
 
 .container {
-/*	position: relative; used to be absolute */ 
 left: 0;
 right: 0;
 width: 100%;
 }
 
-
-.navbar .nav > li > a {
-	color: black;
-
-}
-
-.navbar-brand {
-	color: black;
+.iconBanner {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
 	height: 50px;
-
+	top: 0px;
+	z-index: 0px;
+	text-align: right;
+	padding-right: 80px;
+	padding-left: 80px;
+	width: 100%;
 }
 
-.navbar-nav > li > a, .navbar-brand {
-	padding-top:90px !important; 
-	padding-bottom:0px !important;
-	height: 10px;
-
+.nameTag {
+	margin: 0 0 0 0px;
+	margin-top: 32px;  
+	margin-bottom: 0px;
+	margin-right: 25px;
+	margin-left: 0px;
+	text-align: none;
+	letter-spacing: 1.2px;
+	opacity: 1.0;
+	text-transform: none;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+	width: 100%;
 }
-.navbar {
-	min-height:0px !important;
-	margin-left: 45px;
+
+.nameTagName p {
+	font-family: 'Gotham-Medium', sans-serif;
+	opacity: 1.5;
+	color: black;
+	vertical-align: right;
+	text-transform: bold;
+	font-size: 25px;
+	letter-spacing: .0px;
+	width: 100%;
+	padding-left: 82.5px;
 }
-
-
-
 
 .masthead {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	height: 250px;
+	height: 340px;
 	background-size: cover;
 	top: 0;
 	z-index: 1;
@@ -73,16 +72,16 @@ width: 100%;
 
 .content {
 	margin: 0 0 0 0px;
-margin-top: 0px;  /* will change when navbar gets added */
-margin-bottom: 0px;
-margin-right: 15px;
-margin-left: 15px;
-text-align: none;
-letter-spacing: 1px;
-opacity: 1.0;
-text-transform: none;
-font-family: 'Gotham-Medium', sans-serif;
-color: #fff;
+	margin-top: 57.5px;  
+	margin-bottom: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-align: none;
+	letter-spacing: 1px;
+	opacity: 1.0;
+	text-transform: none;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
 }
 .content p {
 	opacity: 0.6;
@@ -91,8 +90,6 @@ color: #fff;
 	text-transform: none;
 	font-size: 30px; 
 }
-
-
 
 
 .button {
@@ -144,9 +141,6 @@ opacity: 1.0;
 	outline: none;
 
 }
-
-
-
 
 
 
@@ -865,8 +859,8 @@ margin: relative;
 
 	img {
 		position: center;
-		height: 35px;
-		width: 35px;
+		height: 20px;
+		width: 20px;
 /*	max-width:;    need to set this breakpoint */
 margin-top: 0px;
 margin-left: 25px;
@@ -884,7 +878,7 @@ a {
 }
 
 p.copyright {
-	opacity: 0.7;
+	opacity: 0.5;
 	font-size: 1.2rem;
 	text-align:  center;
 	padding-top: 10px;
@@ -912,6 +906,44 @@ col-sm-12
 
 
 /* masthead section */
+.iconBanner {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+	top: 0px;
+	z-index: 0px;
+	text-align: right;
+	padding-right: 80px;
+	padding-left: 80px;
+	width: 100%;
+}
+
+.nameTag {
+	margin: 0 0 0 0px;
+	margin-top: 90px;  
+	margin-bottom: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-align: none;
+	letter-spacing: 1.2px;
+	opacity: 1.0;
+	text-transform: none;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+	width: 100%;
+}
+
+.nameTagName p {
+	font-family: 'Gotham-Medium', sans-serif;
+	opacity: 1.5;
+	color: black;
+	vertical-align: right;
+	text-transform: bold;
+	font-size: 25px;
+	letter-spacing: .1px;
+	width: 100%;
+}
 
 
 .masthead {
@@ -925,45 +957,6 @@ col-sm-12
 	text-align: left;
 
 }
-
-
-.navbar {
-	min-height:0px !important;
-	margin-left: 45px;
-}
-.navbar .nav > li > a {
-	color: black;
-	opacity: .4;
-	padding-left: 0px;
-
-}
-
-
-.navbar-nav > li > a, .navbar-brand  {
-	padding-top:30px !important; 
-	padding-bottom:0px !important;
-	height: 10px;
-	color: black;
-	font-size: 19px;
-	opacity: 0.5;
-	margin-right: 5px;
-	margin-left: 5px;
-
-}
-.navbar-brand {
-	color: black;
-	font-size: 30px;
-	opacity: 1.0;
-	margin-right: 550px;
-
-}
-
-
-
-
-
-
-
 
 
 
@@ -1045,7 +1038,7 @@ opacity: 1.0;
 .grid_section {
 	margin-top:0px;
 	background-color: white;
-	height: 3775px;
+	height: 3755px;
 	width: 100%;
 	padding-right: 18px;
 	padding-left: 18px;
@@ -1246,7 +1239,7 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 375px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
+width: 100%; 
 border-radius:0%;
 margin-left: 0px;
 margin-right: 0px;
@@ -1329,7 +1322,7 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 450px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
+width: 100%; 
 border-radius:0%;
 margin-left: 0px;
 margin-right: 0px;
@@ -1413,7 +1406,7 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 475px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
+width: 100%; 
 border-radius:0%;
 margin-left: 0px;
 margin-right: 0px;
@@ -1496,7 +1489,7 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 320px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
+width: 100%;
 border-radius:0%;
 margin-left: 0px;
 margin-right: 0px;
@@ -1580,7 +1573,7 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 400px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
+width: 100%; 
 border-radius:0%;
 margin-left: 0px;
 margin-right: 0px;
@@ -1663,7 +1656,7 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 545px;
-width: 100%;/* this should be 100%, and then place .tile in a div */
+width: 100%;
 border-radius:0%;
 margin-left: 0px;
 margin-right: 0px;
@@ -1757,7 +1750,7 @@ margin: relative;
 		height: 35px;
 		width: 35px;
 /*	max-width:;    need to set this breakpoint */
-margin-top: 45px;
+margin-top: 35px;
 margin-left: 120px;
 margin-bottom: 30px;
 
@@ -1778,7 +1771,7 @@ p.copyright {
 	font-size: 1.5rem;
 	text-align:  center;
 	margin-left: 40px;
-	padding-top: 10px;
+	padding-top: 20px;
 
 }
 
@@ -1807,31 +1800,49 @@ col-md-12
 
 
 
-	.navbar .nav > li > a {
-		color: black;
 
-	}
-
-	.navbar-brand {
-		color: black;
-		height: 50px;
-
-	}
-
-	.navbar-nav > li > a, .navbar-brand {
-		padding-top:90px !important; 
-		padding-bottom:0px !important;
-		height: 10px;
-
-	}
-	.navbar {
-		min-height:0px !important;
-		margin-left: 45px;
-	}
 
 
 
 /* masthead section */
+.iconBanner {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 50px;
+	top: 0px;
+	z-index: 0px;
+	text-align: right;
+	padding-right: 80px;
+	padding-left: 80px;
+	width: 100%;
+}
+
+.nameTag {
+	margin: 0 0 0 0px;
+	margin-top: 90px;  
+	margin-bottom: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-align: none;
+	letter-spacing: 1.2px;
+	opacity: 1.0;
+	text-transform: none;
+	font-family: 'Gotham-Medium', sans-serif;
+	color: #fff;
+	width: 100%;
+}
+
+.nameTagName p {
+	font-family: 'Gotham-Medium', sans-serif;
+	opacity: 1.5;
+	color: black;
+	vertical-align: right;
+	text-transform: bold;
+	font-size: 25px;
+	letter-spacing: .1px;
+	width: 100%;
+}
 
 
 .masthead {
@@ -1840,7 +1851,7 @@ col-md-12
 	padding: 0px;
 	height: 245px;
 	width: 100%;
-	max-width: 1169px;
+	max-width: 1185px;
 	top: 0px;
 	z-index: 0px;
 	text-align: left;
@@ -1862,7 +1873,7 @@ letter-spacing: 1px;
 opacity: 1.0;
 text-transform: none;
 font-family: 'Gotham-Medium', sans-serif;
-color: #fff;
+
 }
 .content p {
 	font-family: 'Gotham-Medium', sans-serif;
@@ -2466,14 +2477,14 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 420px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: -15px;
-	margin-right: auto;
-	margin-bottom: -30px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -30px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile7 > .front7 {
@@ -2649,10 +2660,10 @@ margin: relative;
 		height: 60px;
 		width: 55px;
 /*	max-width:;    need to set this breakpoint */
-		margin-top: 80px;
-		margin-left: 125px;
-		margin-bottom: 0px;
-		vertical-align: center;
+margin-top: 80px;
+margin-left: 125px;
+margin-bottom: 0px;
+vertical-align: center;
 }
 
 a {
@@ -2688,27 +2699,44 @@ col-lg-12
 @media (min-width: 1170px) {
 	background-color: white;
 
+	.iconBanner {
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		height: 50px;
+		top: 0px;
+		z-index: 0px;
+		text-align: right;
+		padding-right: 95px;
+		padding-left: 80px;
+		width: 100%;
+	}
 
+	.nameTag {
+		margin: 0 0 0 0px;
+		margin-top: 90px;  
+		margin-bottom: 0px;
+		margin-right: 15px;
+		margin-left: 0px;
+		text-align: none;
+		letter-spacing: 1.2px;
+		opacity: 1.0;
+		text-transform: none;
+		font-family: 'Gotham-Medium', sans-serif;
+		color: #fff;
+		width: 100%;
+	}
 
-	.navbar .nav > li > a {
+	.nameTagName p {
+		font-family: 'Gotham-Medium', sans-serif;
+		opacity: 1.5;
 		color: black;
+		vertical-align: right;
+		text-transform: bold;
+		font-size: 25px;
+		letter-spacing: .1px;
+		width: 100%;
 	}
-
-	.navbar-brand {
-		color: black;
-	}
-
-	.navbar-nav > li > a, .navbar-brand {
-		padding-top:90px !important; 
-		padding-bottom:10px !important;
-		height: 20px;
-	}
-	.navbar {
-		min-height:20px !important;
-		padding-right: 80px;
-		padding-left: 40px;
-	}
-
 
 
 
@@ -2716,38 +2744,39 @@ col-lg-12
 		position: relative;
 		margin: 0px;
 		padding: 0px;
-		height: 285px;
+		height: 240px;
 		top: 0px;
 		z-index: 0px;
 		text-align: left;
 		padding-right: 80px;
 		padding-left: 80px;
-		width: 1323px;
+		width: 100%;
+		max-width: 1165px;
 	}
 
 
 
 
 
-.content {
-	margin: 0 0 0 0px;
-	margin-top: 65px;  /* will change when navbar gets added */
-	margin-bottom: 0px;
-	margin-right: 15px;
-	margin-left: 15px;
-	text-align: none;
-	letter-spacing: 1px;
-	opacity: 1.0;
-	text-transform: none;
-	font-family: 'Gotham-Medium', sans-serif;
-	color: #fff;
-	width: 100%;
+	.content {
+		margin: 0 0 0 0px;
+margin-top: 50px;  /* will change when navbar gets added */
+margin-bottom: 0px;
+margin-right: 15px;
+margin-left: 15px;
+text-align: none;
+letter-spacing: 1.2px;
+opacity: .9;
+text-transform: none;
+font-family: 'Gotham-Medium', sans-serif;
+color: #fff;
+width: 100%;
 }
-	.content p {
+.content p {
 	font-family: 'Gotham-Medium', sans-serif;
 	color: black;
 	text-transform: none;
-	font-size: 50px;
+	font-size: 40px;
 	width: 100%;
 }
 
@@ -2916,14 +2945,14 @@ opacity: 1.0;
 	display: inline-block;
 	background: transparent; 
 	height: 300px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: -15px;
-	margin-right: auto;
-	margin-bottom: -5px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -5px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile2 > .front2 {
@@ -3013,15 +3042,15 @@ opacity: 1.0;
 	display: inline-block;
 	background: transparent; 
 	height: 310px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: -15px;
-	margin-right: auto;
-	margin-bottom: -10px;
-	margin-top: -30px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -10px;
+margin-top: -30px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile3 > .front3 {
@@ -3097,15 +3126,15 @@ opacity: 1.0;
 	display: inline-block;
 	background: transparent; 
 	height: 260px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: 15px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-top: -180px;
-	z-index:0;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 15px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-top: -180px;
+z-index:0;
+position: relative;
+margin: relative;
 }
 
 .tile4 > .front4 {
@@ -3182,14 +3211,14 @@ opacity: 1.0;
 	display: inline-block;
 	background: transparent; 
 	height: 280px;
-	width: 100%; /* this should be 100%, and then place .tile in a div */
-	border-radius:0%;
-	margin-left: -15px;
-	margin-right: auto;
-	margin-bottom: -10px;
-	z-index:1;
-	position: relative;
-	margin: relative;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: -10px;
+z-index:1;
+position: relative;
+margin: relative;
 }
 
 .tile5 > .front5 {

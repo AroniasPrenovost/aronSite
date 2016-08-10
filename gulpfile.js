@@ -20,6 +20,5 @@ gulp.task('sass:watch', function () {
 // Default Task
 gulp.task('default', ['sass', 'watch']);
 
-var spanWidth = $('#text span').width();
-$('#text').animate( { width: spanWidth }, 3000 );
+
 
