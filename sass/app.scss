@@ -926,10 +926,10 @@ col-sm-12
 
 .nameTag {
 	margin: 0 0 0 0px;
-	margin-top: 90px;  
+	margin-top: 25px;  
 	margin-bottom: 0px;
 	margin-right: 15px;
-	margin-left: 15px;
+	margin-left: 70px;
 	text-align: none;
 	letter-spacing: 1.2px;
 	opacity: 1.0;
@@ -945,7 +945,7 @@ col-sm-12
 	color: black;
 	vertical-align: right;
 	text-transform: bold;
-	font-size: 30px;
+	font-size: 24px;
 	letter-spacing: -2px;
 	width: 100%;
 
@@ -956,7 +956,7 @@ col-sm-12
 	position: relative;
 	margin: 0;
 	padding: 0;
-	height: 700px;
+	height: 620px;
 
 	top: 0;
 	z-index: 1;
@@ -969,7 +969,7 @@ col-sm-12
 
 .content {
 	margin: 0 0 0 0px;
-margin-top: 180px;  /* will change when navbar gets added */
+margin-top: 60px;  /* will change when navbar gets added */
 margin-bottom: 0px;
 margin-right: 15px;
 margin-left: 30px;
@@ -985,7 +985,7 @@ width:600px;
 	font-family: 'Gotham-Medium', sans-serif;
 	color: black;
 	text-transform: none;
-	font-size: 40px; 
+	font-size: 60px; 
 }
 
 .button {
@@ -1579,14 +1579,14 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 400px;
-width: 100%; 
-border-radius:0%;
-margin-left: 0px;
-margin-right: 0px;
-margin-bottom: -5px;
-z-index:1;
-position: relative;
-margin: relative;
+	width: 100%; 
+	border-radius:0%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: -5px;
+	z-index:1;
+	position: relative;
+	margin: relative;
 }
 
 .tile7 > .front7 {
@@ -1662,33 +1662,62 @@ margin: relative;
 	display: inline-block;
 	background: transparent; 
 	height: 545px;
-width: 100%;
-border-radius:0%;
-margin-left: 0px;
-margin-right: 0px;
-margin-bottom: -5px;
-z-index:1;
-position: relative;
-margin: relative;
+	width: 100%;
+	border-radius:0%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: -5px;
+	z-index:1;
+	position: relative;
+	margin: relative;
 }
 
 
 .innerTile {
 	opacity:1.0;
 	display: inline-block;
-	background: black; 
-	height: 110px;
-width: 100%;
-border-radius:0%;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 310px;
-margin-bottom: -0px;
-z-index:1;
-position: relative;
-margin: relative;
+	background: gray; 
+	height: 500px;
+	width: 100%;
+	border-radius:0%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 600px;
+	margin-bottom: -0px;
+	z-index:1;
+	position: relative;
+	margin: relative;
 }
 
+
+
+img {
+	position: right;
+	height: 20px;
+	width: 20px;
+	margin-top: 65px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+a {
+	position: right;
+	margin-left: -30px;
+	height: 0px;
+	width: 100%;
+}
+
+.calltoaction {
+	height: 160px;
+	width: 300px;
+}
+
+.calltoaction p {
+	font-size: 30px;
+	text-align:  left;
+	text-indent: 30px;
+	padding-top: 200px;
+}
 
 .tile8 > .front8 {
 	position: absolute;
@@ -1924,7 +1953,6 @@ transition: 0s;
 -webkit-transition: .3s;
 -moz-transition: .3s;
 -o-transition: .3s;
-
 padding: 12px 29px;
 padding-top: 60px;
 padding-left: 14%;
@@ -1969,7 +1997,7 @@ opacity: 1.0;
 .grid_section {
 	margin-top:0px;
 	background-color: white;
-	height: 1425px;
+	height: 1275px;
 	width: 100%;
 	padding-right: 42.5px;
 	padding-left: 42.5px;
@@ -2601,20 +2629,52 @@ position: relative;
 margin: relative;
 }
 
+
+
 .innerTile {
 	opacity:1.0;
 	display: inline-block;
-	background: black; 
-	height: 110px;
+	background: gray; 
+	height: 120px;
 width: 100%;
 border-radius:0%;
 margin-left: 0px;
 margin-right: 0px;
-margin-top: 310px;
+margin-top: 300px;
 margin-bottom: -0px;
 z-index:1;
 position: relative;
 margin: relative;
+}
+
+
+
+img {
+	position: right;
+	height: 20px;
+	width: 20px;
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+
+a {
+	position: right;
+	margin-left: 150px;
+	height: 0px;
+	width: 100%;
+}
+
+.calltoaction {
+	height: 160px;
+	width: 300px;
+}
+
+.calltoaction p {
+	font-size: 22px;
+	text-align:  left;
+	text-indent: 15px;
+	padding-top: 45px;
 }
 
 .tile8 > .front8 {
@@ -2723,7 +2783,7 @@ a {
 p.copyright {
 	font-size: 16px;
 	text-align:  center;
-	padding-top: 10px;
+	padding-top: 30px;
 	vertical-align: center;
 
 
@@ -2785,7 +2845,7 @@ col-lg-12
 		font-size: 30px;
 		padding-left: 0px;
 		letter-spacing: -2px;
-		width: 800px;
+		width: 1250px;
 	}
 
 
@@ -2846,7 +2906,6 @@ transition: 0s;
 -webkit-transition: .3s;
 -moz-transition: .3s;
 -o-transition: .3s;
-
 padding: 12px 29px;
 padding-top: 60px;
 padding-left: 14%;
@@ -3091,7 +3150,7 @@ margin: relative;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 500px;
+	height: 450px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: -15px;
@@ -3109,7 +3168,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #f1c40f; 	
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3123,7 +3182,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #f39c12; 
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3428,7 +3487,7 @@ margin: relative;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 520px;
+	height: 570px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: -15px;
@@ -3445,7 +3504,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #c0392b; 	
 	width: 100%;
-	height: 520px;
+	height: 570px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3459,7 +3518,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(180deg );
 	background:  #c0392b;
 	width: 100%;
-	height: 520px;
+	height: 570px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3527,17 +3586,49 @@ margin: relative;
 .innerTile {
 	opacity:1.0;
 	display: inline-block;
-	background: black; 
-	height: 110px;
+	background: gray; 
+	height:160px;
 width: 100%;
 border-radius:0%;
 margin-left: 0px;
+padding-right: 50px;
+padding-left: 0px;
 margin-right: 0px;
-margin-top: 310px;
-margin-bottom: -0px;
+margin-top: 410px;
+margin-bottom: 0px;
 z-index:1;
 position: relative;
 margin: relative;
+position: right;
+}
+
+
+img {
+	position: right;
+	height: 30px;
+	width: 30px;
+	margin-top: 65px;
+	margin-left: 320px;
+	margin-bottom: 0px;
+}
+
+a {
+	position: right;
+	margin-left: -50px;
+	height: 0px;
+	width: 100%;
+}
+
+.calltoaction {
+	height: 160px;
+	width: 300px;
+}
+
+.calltoaction p {
+	font-size: 30px;
+	text-align:  left;
+	text-indent: 30px;
+	padding-top: 55px;
 }
 
 
@@ -3626,30 +3717,12 @@ margin: relative;
 	height: 0px;
 	width: 100%;
 
-	img {
-		position: center;
-		height: 60px;
-		width: 55px;
-/*	max-width:;    need to set this breakpoint */
-margin-top: 80px;
-margin-left: 20px;
-margin-bottom: 0px;
 
-
-}
-
-a {
-	position: center;
-	height: 0px;
-	width: 0px;
-	margin-top: 0px;
-	vertical-align: center;
-}
 
 p.copyright {
 	font-size: 16px;
 	text-align:  center;
-	padding-top: 10px;
+	padding-top: 25px;
 	vertical-align: center;
 
 
