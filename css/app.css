@@ -60,9 +60,9 @@ col-lg-12
     vertical-align: right;
     text-transform: bold;
     font-size: 25px;
-    letter-spacing: .0px;
+    letter-spacing: -2px;
     width: 100%;
-    padding-left: 82.5px; }
+    padding-left: 90px; }
   body .masthead {
     position: relative;
     margin: 0;
@@ -718,7 +718,8 @@ col-lg-12
         text-align: right;
         padding-right: 80px;
         padding-left: 80px;
-        width: 100%; }
+        width: 100%;
+        max-width: 970px; }
       body .nameTag {
         margin: 0 0 0 0px;
         margin-top: 90px;
@@ -738,18 +739,19 @@ col-lg-12
         color: black;
         vertical-align: right;
         text-transform: bold;
-        font-size: 25px;
-        letter-spacing: .1px;
+        font-size: 30px;
+        letter-spacing: -2px;
         width: 100%; }
       body .masthead {
         position: relative;
         margin: 0;
         padding: 0;
         height: 700px;
-        background-size: cover;
         top: 0;
         z-index: 1;
-        text-align: left; }
+        text-align: left;
+        width: 100%;
+        max-width: 1024px; }
       body .content {
         margin: 0 0 0 0px;
         margin-top: 180px;
@@ -763,12 +765,12 @@ col-lg-12
         text-transform: none;
         font-family: 'Gotham-Medium', sans-serif;
         color: #fff;
-        width: 900px; }
+        width: 600px; }
       body .content p {
         font-family: 'Gotham-Medium', sans-serif;
         color: black;
         text-transform: none;
-        font-size: 60px; }
+        font-size: 40px; }
       body .button {
         display: inline-block;
         /* this is important to keep */
@@ -1402,7 +1404,7 @@ col-lg-12
         top: 0px;
         z-index: 0px;
         text-align: right;
-        padding-right: 80px;
+        padding-right: 0px;
         padding-left: 80px;
         width: 100%; }
       body .nameTag {
@@ -1417,7 +1419,8 @@ col-lg-12
         text-transform: none;
         font-family: 'Gotham-Medium', sans-serif;
         color: #fff;
-        width: 100%; }
+        width: 100%;
+        max-width: 1169px; }
       body .nameTagName p {
         font-family: 'Gotham-Medium', sans-serif;
         opacity: 1.5;
@@ -1426,7 +1429,8 @@ col-lg-12
         text-transform: bold;
         font-size: 25px;
         letter-spacing: .1px;
-        width: 100%; }
+        width: 100%;
+        max-width: 1169px; }
       body .masthead {
         position: relative;
         margin: 0px;
@@ -1438,7 +1442,9 @@ col-lg-12
         z-index: 0px;
         text-align: left;
         padding-right: 1px;
-        padding-left: 15px; }
+        padding-left: 15px;
+        width: 100%;
+        max-width: 970px; }
       body .content {
         margin: 0 0 0 0px;
         margin-top: 70px;
@@ -1450,7 +1456,8 @@ col-lg-12
         letter-spacing: 1px;
         opacity: 1.0;
         text-transform: none;
-        font-family: 'Gotham-Medium', sans-serif; }
+        font-family: 'Gotham-Medium', sans-serif;
+        width: 100%; }
       body .content p {
         font-family: 'Gotham-Medium', sans-serif;
         color: black;
@@ -2095,9 +2102,9 @@ col-lg-12
         top: 0px;
         z-index: 0px;
         text-align: right;
-        padding-right: 95px;
-        padding-left: 80px;
-        width: 100%; }
+        padding-right: 0px;
+        padding-left: 300px;
+        width: 1300px; }
       body .nameTag {
         margin: 0 0 0 0px;
         margin-top: 90px;
@@ -2117,9 +2124,10 @@ col-lg-12
         color: black;
         vertical-align: right;
         text-transform: bold;
-        font-size: 25px;
-        letter-spacing: .1px;
-        width: 100%; }
+        font-size: 30px;
+        padding-left: 0px;
+        letter-spacing: -2px;
+        width: 800px; }
       body .masthead {
         position: relative;
         margin: 0px;
@@ -2195,19 +2203,19 @@ col-lg-12
       body .grid_section {
         margin-top: 0px;
         background-color: white;
-        height: 1450px;
+        height: 1700px;
         width: 100%;
         padding-right: 80px;
         padding-left: 80px; }
       body .tile1 {
         opacity: 1.0;
         background: transparent;
-        height: 400px;
+        height: 600px;
         width: 100%;
         border-radius: 0%;
         margin-left: 15px;
         margin-right: auto;
-        margin-bottom: -5px;
+        margin-bottom: 0px;
         z-index: 1;
         position: relative;
         margin: relative; }
@@ -2217,7 +2225,7 @@ col-lg-12
         transform: perspective(100px) rotateY(0deg);
         background: #2c3e50;
         width: 100%;
-        height: 400px;
+        height: 600px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2229,7 +2237,7 @@ col-lg-12
         background: #2c3e50;
         background: url("/img/html.jpg");
         width: 100%;
-        height: 400px;
+        height: 600px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2266,7 +2274,7 @@ col-lg-12
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 300px;
+        height: 450px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -2282,7 +2290,7 @@ col-lg-12
         transform: perspective(100px) rotateY(0deg);
         background: #1abc9c;
         width: 100%;
-        height: 300px;
+        height: 450px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2293,7 +2301,7 @@ col-lg-12
         transform: perspective(100px) rotateY(180deg);
         background: #2ecc71;
         width: 100%;
-        height: 300px;
+        height: 450px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2341,7 +2349,7 @@ col-lg-12
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 310px;
+        height: 500px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -2358,7 +2366,7 @@ col-lg-12
         transform: perspective(100px) rotateY(0deg);
         background: #f1c40f;
         width: 100%;
-        height: 310px;
+        height: 500px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2369,7 +2377,7 @@ col-lg-12
         transform: perspective(100px) rotateY(180deg);
         background: #f39c12;
         width: 100%;
-        height: 310px;
+        height: 500px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2406,14 +2414,14 @@ col-lg-12
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 260px;
+        height: 610px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
         margin-left: 15px;
         margin-right: auto;
         margin-bottom: 0px;
-        margin-top: -180px;
+        margin-top: -325px;
         z-index: 0;
         position: relative;
         margin: relative; }
@@ -2423,7 +2431,7 @@ col-lg-12
         transform: perspective(100px) rotateY(0deg);
         background: #2980b9;
         width: 100%;
-        height: 260px;
+        height: 610px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2434,7 +2442,7 @@ col-lg-12
         transform: perspective(100px) rotateY(180deg);
         background: #3498db;
         width: 100%;
-        height: 260px;
+        height: 610px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2471,7 +2479,7 @@ col-lg-12
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 280px;
+        height: 480px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -2487,7 +2495,7 @@ col-lg-12
         transform: perspective(100px) rotateY(0deg);
         background: #F08080;
         width: 100%;
-        height: 280px;
+        height: 480px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2498,7 +2506,7 @@ col-lg-12
         transform: perspective(100px) rotateY(180deg);
         background: #FFA07A;
         width: 100%;
-        height: 280px;
+        height: 480px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2600,7 +2608,7 @@ col-lg-12
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 420px;
+        height: 520px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -2616,7 +2624,7 @@ col-lg-12
         transform: perspective(100px) rotateY(0deg);
         background: #c0392b;
         width: 100%;
-        height: 420px;
+        height: 520px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2627,7 +2635,7 @@ col-lg-12
         transform: perspective(100px) rotateY(180deg);
         background: #c0392b;
         width: 100%;
-        height: 420px;
+        height: 520px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2664,7 +2672,7 @@ col-lg-12
         opacity: 1.0;
         display: inline-block;
         background: transparent;
-        height: 320px;
+        height: 520px;
         width: 100%;
         /* this should be 100%, and then place .tile in a div */
         border-radius: 0%;
@@ -2695,7 +2703,7 @@ col-lg-12
         transform: perspective(100px) rotateY(0deg);
         background: #F08080;
         width: 100%;
-        height: 320px;
+        height: 520px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
@@ -2706,7 +2714,7 @@ col-lg-12
         transform: perspective(100px) rotateY(180deg);
         background: #FFA07A;
         width: 100%;
-        height: 320px;
+        height: 520px;
         border-radius: 0px;
         -webkit-backface-visibility: hidden;
         transition: -webkit-transform .0s linear 0s;
