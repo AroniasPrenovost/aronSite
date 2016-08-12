@@ -3482,7 +3482,7 @@ opacity: 1.0;
 .grid_section {
 	margin-top:0px;
 	background-color: white;
-	height: 1700px;
+	height: 4000px;
 	width: 100%;
 	padding-right: 80px;
 	padding-left: 80px;
@@ -3553,8 +3553,8 @@ opacity: 1.0;
 .textbox1 {
 	z-index:100;
 	position:absolute;
-	height: 85px;
-	left: 20px;
+height: 100%;
+width: 100%;
 	right: 0;
 	bottom: 20px;
 	background: none;    
@@ -3585,12 +3585,12 @@ opacity: 1.0;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 450px;
+	height: 480px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: -15px;
 margin-right: auto;
-margin-bottom: -5px;
+margin-bottom: 10px;
 z-index:1;
 position: relative;
 margin: relative;
@@ -3602,7 +3602,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #1abc9c; 	
 	width: 100%; 
-	height: 450px;
+	height: 480px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3616,7 +3616,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #2ecc71; 
 	width: 100%; 
-	height: 450px;
+	height: 480px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3637,10 +3637,11 @@ margin: relative;
 .textbox2 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+	height: 100%;
+	width: 100%;
 	left: 50px;
 	right: 0;
-	bottom: 200px;
+	bottom: 10px;
 	background: none;    
 }
 
@@ -3669,7 +3670,7 @@ margin: relative;
 	font-size:55px;
 	text-align: right;
 	font-weight:bold;
-	margin-top: 40px; 
+	margin-top: 10px; 
 	margin-right: 0px;
 	margin-bottom: 0px;
 	right: 0;
@@ -3688,7 +3689,7 @@ border-radius:0%;
 margin-left: -15px;
 margin-right: auto;
 margin-bottom: -10px;
-margin-top: -30px;
+margin-top: -15px;
 z-index:1;
 position: relative;
 margin: relative;
@@ -3735,7 +3736,8 @@ margin: relative;
 .textbox3 {
 	z-index:100;
 	position:absolute;
-	height: 555px;
+height: 100%;
+width: 100%;
 	left: 20px;
 	right: 0;
 	bottom: 20px;
@@ -3766,13 +3768,13 @@ margin: relative;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 610px;
+	height: 580px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: 15px;
 margin-right: auto;
 margin-bottom:0px;
-margin-top: -325px;
+margin-top: -345px;
 z-index:0;
 position: relative;
 margin: relative;
@@ -3784,7 +3786,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #2980b9; 	
 	width: 100%;
-	height: 610px;
+	height: 580px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3798,7 +3800,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #3498db; 
 	width: 100%;
-	height: 610px;
+	height: 580px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3820,7 +3822,8 @@ margin: relative;
 .textbox4 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+	height: 100%;
+width: 100%;
 	left: 0px;
 	right: 0;
 	bottom: -20px;
@@ -3851,12 +3854,12 @@ margin: relative;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 480px;
+	height: 460px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: -15px;
 margin-right: auto;
-margin-bottom: -10px;
+margin-bottom: 10px;
 z-index:1;
 position: relative;
 margin: relative;
@@ -3868,7 +3871,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 480px;
+	height: 460px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3882,7 +3885,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 480px;
+	height: 460px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -3903,7 +3906,8 @@ margin: relative;
 .textbox5 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+height: 100%;
+width: 100%;
 	left: 20px;
 	right: 0;
 	bottom: 20px;
@@ -3939,8 +3943,8 @@ width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0px;
 margin-left: 15px;
 margin-right: auto;
-margin-top: -400px;
-margin-bottom: -110px;
+margin-top: -260px;
+margin-bottom: 10px;
 z-index:1;
 position: relative;
 margin: relative;
@@ -3987,7 +3991,8 @@ margin: relative;
 .textbox6 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+height: 100%;
+width: 100%;
 	left: 20px;
 	right: 0;
 	bottom: 20px;
@@ -4019,12 +4024,13 @@ margin: relative;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 570px;
+	height: 480px;
 width: 100%; /* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: -15px;
 margin-right: auto;
-margin-bottom: -30px;
+margin-bottom: 10px;
+margin-top: -15px;
 z-index:1;
 position: relative;
 margin: relative;
@@ -4034,9 +4040,9 @@ margin: relative;
 	position: absolute;
 	-webkit-transform: perspective( 100px ) rotateY(0deg );
 	transform: perspective( 100px ) rotateY(0deg );
-	background: #c0392b; 	
+	background: orange; 	
 	width: 100%;
-	height: 570px;
+	height: 480px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -4048,9 +4054,9 @@ margin: relative;
 	position: absolute;
 	-webkit-transform: perspective( 100px ) rotateY(180deg );
 	transform: perspective( 100px ) rotateY(180deg );
-	background:  #c0392b;
+	background:  gray;
 	width: 100%;
-	height: 570px;
+	height: 480px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -4071,7 +4077,8 @@ margin: relative;
 .textbox7 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+height: 100%;
+width: 100%;
 	left: 20px;
 	right: 0;
 	bottom: 20px;
@@ -4102,19 +4109,190 @@ margin: relative;
 	opacity:1.0;
 	display: inline-block;
 	background: transparent; 
-	height: 520px;
+	height: 480px;
 width: 100%;/* this should be 100%, and then place .tile in a div */
 border-radius:0%;
 margin-left: 15px;
 margin-right: auto;
-margin-bottom: -10px;
-margin-top: -500px;
+margin-bottom: 10px;
+margin-top: 10px; /* confirmed */
 z-index:1;
 position: relative;
 margin: relative;
 }
 
 
+
+
+
+.tile8 > .front8 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: red; 	
+	width: 100%;
+	height: 480px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile8 > .back8 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: red; 
+	width: 100%;
+	height: 480px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile8:hover > .front8{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile8:hover > .back8{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox8 {
+	z-index:100;
+	position:absolute;
+height: 100%;
+width: 100%;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading8 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb8 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+
+
+
+.tile9 {
+	opacity:1.0;
+	display: inline-block;
+	background: transparent; 
+	height: 500px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: 15px;
+margin-right: auto;
+margin-bottom: 10px;
+z-index:1;
+position: relative;
+margin: relative;
+}
+
+.tile9 > .front9 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(0deg );
+	transform: perspective( 100px ) rotateY(0deg );
+	background: blue; 	
+	width: 100%;
+	height: 500px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile9 > .back9 {
+	position: absolute;
+	-webkit-transform: perspective( 100px ) rotateY(180deg );
+	transform: perspective( 100px ) rotateY(180deg );
+	background: blue ; 
+	width: 100%;
+	height: 500px;
+	border-radius: 0px;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .0s linear 0s;
+	transition: transform .0s linear 0s;
+}
+
+
+.tile9:hover > .front9{
+	-webkit-transform: perspective( 100px ) rotateY( -180deg );
+	transform: perspective( 100px ) rotateY( -180deg );
+}
+
+.tile9:hover > .back9{
+	-webkit-transform: perspective(100px ) rotateY( 0deg );
+	transform: perspective(100px ) rotateY( 0deg );
+}
+
+.textbox9 {
+	z-index:100;
+	position:absolute;
+height: 100%;
+width: 100%;
+	left: 20px;
+	right: 0;
+	bottom: 20px;
+	background: none;    
+}
+
+.heading9 {
+	z-index:999;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	margin-top: -125px;
+}
+
+.lowerblurb9 {
+	z-index:0;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	margin-top: 115px; 
+	left: 20px;
+	right: 0;
+}
+
+
+
+.tile10 {
+	opacity:1.0;
+	display: inline-block;
+	background: relative; 
+	height: 480px;
+width: 100%; /* this should be 100%, and then place .tile in a div */
+border-radius:0%;
+margin-left: -15px;
+margin-right: auto;
+margin-bottom: 10px;
+z-index:1;
+position: relative;
+margin: relative;
+}
 .innerTile {
 	opacity:1.0;
 	display: inline-block;
@@ -4163,181 +4341,13 @@ a {
 	padding-top: 55px;
 }
 
-
-
-.tile8 > .front8 {
-	position: absolute;
-	-webkit-transform: perspective( 100px ) rotateY(0deg );
-	transform: perspective( 100px ) rotateY(0deg );
-	background: #F08080; 	
-	width: 100%;
-	height: 520px;
-	border-radius: 0px;
-	-webkit-backface-visibility: hidden;
-	transition: -webkit-transform .0s linear 0s;
-	transition: transform .0s linear 0s;
-}
-
-
-.tile8 > .back8 {
-	position: absolute;
-	-webkit-transform: perspective( 100px ) rotateY(180deg );
-	transform: perspective( 100px ) rotateY(180deg );
-	background: #FFA07A ; 
-	width: 100%;
-	height: 520px;
-	border-radius: 0px;
-	-webkit-backface-visibility: hidden;
-	transition: -webkit-transform .0s linear 0s;
-	transition: transform .0s linear 0s;
-}
-
-
-.tile8:hover > .front8{
-	-webkit-transform: perspective( 100px ) rotateY( -180deg );
-	transform: perspective( 100px ) rotateY( -180deg );
-}
-
-.tile8:hover > .back8{
-	-webkit-transform: perspective(100px ) rotateY( 0deg );
-	transform: perspective(100px ) rotateY( 0deg );
-}
-
-.textbox8 {
-	z-index:100;
-	position:absolute;
-	height: 30px;
-	left: 20px;
-	right: 0;
-	bottom: 20px;
-	background: none;    
-}
-
-.heading8 {
-	z-index:999;
-	color:#fff;
-	font-size:22px;
-	font-weight:bold;
-	margin-top: -125px;
-}
-
-.lowerblurb8 {
-	z-index:0;
-	color:#fff;
-	font-size:16px;
-	font-weight:bold;
-	margin-top: 115px; 
-	left: 20px;
-	right: 0;
-}
-
-
-
-.tile9 {
-	opacity:1.0;
-	display: inline-block;
-	background: transparent; 
-	height: 280px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
-border-radius:0%;
-margin-left: 15px;
-margin-right: auto;
-margin-bottom: -10px;
-z-index:1;
-position: relative;
-margin: relative;
-}
-
-.tile9 > .front9 {
-	position: absolute;
-	-webkit-transform: perspective( 100px ) rotateY(0deg );
-	transform: perspective( 100px ) rotateY(0deg );
-	background: #F08080; 	
-	width: 100%;
-	height: 280px;
-	border-radius: 0px;
-	-webkit-backface-visibility: hidden;
-	transition: -webkit-transform .0s linear 0s;
-	transition: transform .0s linear 0s;
-}
-
-
-.tile9 > .back9 {
-	position: absolute;
-	-webkit-transform: perspective( 100px ) rotateY(180deg );
-	transform: perspective( 100px ) rotateY(180deg );
-	background: #FFA07A ; 
-	width: 100%;
-	height: 280px;
-	border-radius: 0px;
-	-webkit-backface-visibility: hidden;
-	transition: -webkit-transform .0s linear 0s;
-	transition: transform .0s linear 0s;
-}
-
-
-.tile9:hover > .front9{
-	-webkit-transform: perspective( 100px ) rotateY( -180deg );
-	transform: perspective( 100px ) rotateY( -180deg );
-}
-
-.tile9:hover > .back9{
-	-webkit-transform: perspective(100px ) rotateY( 0deg );
-	transform: perspective(100px ) rotateY( 0deg );
-}
-
-.textbox9 {
-	z-index:100;
-	position:absolute;
-	height: 80px;
-	left: 20px;
-	right: 0;
-	bottom: 20px;
-	background: none;    
-}
-
-.heading9 {
-	z-index:999;
-	color:#fff;
-	font-size:22px;
-	font-weight:bold;
-	margin-top: -125px;
-}
-
-.lowerblurb9 {
-	z-index:0;
-	color:#fff;
-	font-size:16px;
-	font-weight:bold;
-	margin-top: 115px; 
-	left: 20px;
-	right: 0;
-}
-
-
-
-.tile10 {
-	opacity:1.0;
-	display: inline-block;
-	background: transparent; 
-	height: 280px;
-width: 100%; /* this should be 100%, and then place .tile in a div */
-border-radius:0%;
-margin-left: -15px;
-margin-right: auto;
-margin-bottom: -10px;
-z-index:1;
-position: relative;
-margin: relative;
-}
-
 .tile10  > .front10 {
 	position: absolute;
 	-webkit-transform: perspective( 100px ) rotateY(0deg );
 	transform: perspective( 100px ) rotateY(0deg );
 	background: #F08080; 	
 	width: 100%;
-	height: 280px;
+	height: 480px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -4351,7 +4361,7 @@ margin: relative;
 	transform: perspective( 100px ) rotateY(180deg );
 	background: #FFA07A ; 
 	width: 100%;
-	height: 280px;
+	height: 480px;
 	border-radius: 0px;
 	-webkit-backface-visibility: hidden;
 	transition: -webkit-transform .0s linear 0s;
@@ -4372,7 +4382,8 @@ margin: relative;
 .textbox10 {
 	z-index:100;
 	position:absolute;
-	height: 80px;
+height: 100%;
+width: 100%;
 	left: 20px;
 	right: 0;
 	bottom: 20px;
@@ -4417,7 +4428,7 @@ margin: relative;
 p.copyright {
 	font-size: 16px;
 	text-align:  center;
-	padding-top: 25px;
+	padding-top: 50px;
 	vertical-align: center;
 
 
